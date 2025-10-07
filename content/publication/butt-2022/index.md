@@ -1,0 +1,29 @@
+---
+title: Toward Automated Feature Extraction for Deep Learning Classification of Electrocardiogram
+  Signals
+authors:
+- Fatima Sajid Butt
+- Matthias F. Wagner
+- Jörg Schäfer
+- David Gomez Ullate
+date: '2022-01-01'
+publishDate: '2025-10-07T15:14:15.230804Z'
+publication_types:
+- article-journal
+publication: '*IEEE Access*'
+doi: 10.1109/ACCESS.2022.3220670
+abstract: 'Many recent studies have focused on the automatic classification of electrocardiogram
+  (ECG) signals using deep learning (DL) methods. Most rely on existing complex DL
+  methods, such as transfer learning or providing the models with carefully designed
+  extracted features based on domain knowledge. A common assumption is that the deeper
+  and more complex the DL model is, the better it learns. In this study, we propose
+  two different DL models for automatic feature extraction from ECG signals for classification
+  tasks: A CNN-LSTM hybrid model and an attention/transformer-based model with wavelet
+  transform for the dimensional embedding. Both of the models extract the features
+  from time series at the initial layers of the neural networks and can obtain performance
+  at least equal to, if not greater than, many contemporary deep neural networks.
+  To validate our hypothesis, we used three publicly available data-sets to evaluate
+  the proposed models. Our model achieved a benchmark accuracy of 99.92% for fall
+  detection and 99.93% for the PTB database for myocardial infarction versus normal
+  heartbeat classification.'
+---
