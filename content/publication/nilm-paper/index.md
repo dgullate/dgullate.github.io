@@ -2,7 +2,7 @@
 title: "Thresholding Methods in Non-Intrusive Load Monitoring"
 authors:
 - Daniel Precioso
-- David Gómez-Ullate
+- admin
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
@@ -53,14 +53,4 @@ projects: []
 
 slides: ""
 
-# Optional links (for citation managers etc.)
-links:
-- name: "SpringerLink"
-  url: "https://link.springer.com/article/10.1007/s11227-023-05149-8"
-- name: "DOI"
-  url: "https://doi.org/10.1007/s11227-023-05149-8"
-- name: "GitHub Code"
-  url: "https://github.com/UCA-Datalab/nilm-thresholding"
-- name: "Dataset (UK-DALE)"
-  url: "https://data.ukedc.rl.ac.uk/browse/edc/efficiency/residential/EnergyConsumption/Domestic/UK-DALE-2015"
 ---
