@@ -1,0 +1,39 @@
+---
+title: Fall Detection from Electrocardiogram (ECG) Signals and Classification by Deep
+  Transfer Learning
+authors:
+- Fatima Sajid Butt
+- Luigi La Blunda
+- Matthias F. Wagner
+- Jörg Schäfer
+- Inmaculada Medina-Bulo
+- David Gómez-Ullate
+date: '2021-02-01'
+publishDate: '2025-10-21T14:54:43.171771Z'
+publication_types:
+- article-journal
+publication: '*Information*'
+doi: 10.3390/info12020063
+abstract: Fall is a prominent issue due to its severe consequences both physically
+  and mentally. Fall detection and prevention is a critical area of research because
+  it can help elderly people to depend less on caregivers and allow them to live and
+  move more independently. Using electrocardiograms (ECG) signals independently for
+  fall detection and activity classification is a novel approach used in this paper.
+  An algorithm has been proposed which uses pre-trained convolutional neural networks
+  AlexNet and GoogLeNet as a classifier between the fall and no fall scenarios using
+  electrocardiogram signals. The ECGs for both falling and no falling cases were obtained
+  as part of the study using eight volunteers. The signals are pre-processed using
+  an elliptical filter for signal noises such as baseline wander and power-line interface.
+  As feature extractors, frequency-time representations (scalograms) were obtained
+  by applying a continuous wavelet transform on the filtered ECG signals. These scalograms
+  were used as inputs to the neural network and a significant validation accuracy
+  of 98.08% was achieved in the first model. The trained model is able to distinguish
+  ECGs with a fall activity from an ECG with a no fall activity with an accuracy of
+  98.02%. For the verification of the robustness of the proposed algorithm, our experimental
+  dataset was augmented by adding two different publicly available datasets to it.
+  The second model can classify fall, daily activities and no activities with an accuracy
+  of 98.44%. These models were developed by transfer learning from the domain of real
+  images to the medical images. In comparison to traditional deep learning approaches,
+  the transfer learning not only avoids ``reinventing the wheel,'' but also presents
+  a lightweight solution to otherwise computationally heavy problems.
+---
