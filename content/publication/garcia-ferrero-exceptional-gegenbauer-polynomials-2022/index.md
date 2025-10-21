@@ -1,7 +1,7 @@
 ---
 title: Exceptional Gegenbauer Polynomials via Isospectral Deformation
 authors:
-- Mar\á Ángeles García-Ferrero
+- María Ángeles García-Ferrero
 - David Gómez-Ullate
 - Robert Milson
 - James Munday

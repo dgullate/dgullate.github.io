@@ -3,7 +3,7 @@ title: 'Assessing the Effect of Advertising Expenditures upon Sales: A Bayesian 
   Time Series Model'
 authors:
 - Víctor Gallego
-- Pablo Suárez-Garc\á
+- Pablo Suárez-García
 - Pablo Angulo
 - David Gómez-Ullate
 date: '2019-05-01'
