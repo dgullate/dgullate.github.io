@@ -1,0 +1,36 @@
+---
+title: 'TUN-AI: Tuna Biomass Estimation with Machine Learning Models Trained on Oceanography
+  and Echosounder FAD Data'
+authors:
+- Daniel Precioso
+- Manuel Navarro-García
+- Kathryn Gavira-O'Neill
+- Alberto Torres-Barrán
+- David Gordo
+- V̧́tor Gallego
+- David Gómez-Ullate
+date: '2022-06-01'
+publishDate: '2025-10-21T14:54:43.590420Z'
+publication_types:
+- article-journal
+publication: '*Fisheries Research*'
+doi: 10.1016/j.fishres.2022.106263
+abstract: 'The use of dFADs by tuna purse-seine fisheries is widespread across oceans,
+  and the echo-sounder buoys attached to these dFADs provide fishermen with estimates
+  of tuna biomass aggregated to them. This information has potential for gaining insight
+  into tuna behaviour and abundance, but has traditionally been difficult to process
+  and use. The current study combines FAD logbook data, oceanographic data and echo-sounder
+  buoy data to evaluate different Machine Learning models and establish a pipeline,
+  named TUN-AI, for processing echo-sounder buoy data and estimating tuna biomass
+  (in metric tons, t) at various levels of complexity: binary classification, ternary
+  classification and regression. Models were trained and tested on over 5000 sets
+  and over 6000 deployments. Of all the models evaluated, the best performing one
+  uses a 3-day window of echo-sounder data, oceanographic data and position/time derived
+  features. This model is able to estimate if tuna biomass was higher than 10,t or
+  lower than 10,t with an F1-score  of 0.925. When directly estimating tuna biomass,
+  the best model (Gradient Boosting) has an error (MAE) of 21.6,t and a relative error
+  (SMAPE) of 29.5%, when evaluated over sets. All models tested improved when enriched
+  with oceanographic and position-derived features, highlighting the importance of
+  these features when using echo-sounder buoy data. Potential applications of this
+  methodology, and future improvements, are discussed.'
+---
