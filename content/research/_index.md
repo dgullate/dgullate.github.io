@@ -1,14 +1,18 @@
 ---
-title: Research
-cms_exclude: true
+title: 'Academic Research'
+date: 2025-11-25
+type: landing
 
-# View.
-view: citation
+design:
+  # Section spacing
+  spacing: '5rem'
 
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
+# Page sections
+sections:
+  - block: resume-projects
+  # Template in _vendor/blox/resume-projects.html
+    content:
+      title: Academic Research
+      text: Here are a selection of projects that I have worked on over the years.
+      # The items list is now generated automatically from content/research subpages.
 ---
-
-This is a trial text
