@@ -1,7 +1,7 @@
 ---
-title: Machine Learning
-start_date: '2016-01-01'
-end_date: '2025-12-01'
+title: Applied Machine Learning
+start_date: '2015-01-01'
+end_date: ''
 description: Research on machine learning algorithms and applications.
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: Orthogonal Polynomials
-start_date: '2010-01-01'
-end_date: '2020-12-01'
+title: Exceptional Orthogonal Polynomials
+start_date: '2008-01-01'
+end_date: ''
 description: A family of orthogonal polynomials including the classical families as particular cases.
 ---
 
