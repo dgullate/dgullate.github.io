@@ -10,7 +10,7 @@ design:
 # Page sections
 sections:
   - block: resume-projects
-  # Template in _vendor/blox/resume-projects.html
+  # Template in _vendor\github.com\HugoBlox\all-access\blox-all-access\blox\resume-projects.html
     content:
       title: Industrial Projects
       text: Here are a selection of projects that I have worked on over the years.
