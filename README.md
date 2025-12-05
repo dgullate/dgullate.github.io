@@ -18,6 +18,8 @@ Then open http://localhost:1313 in your browser.
 
 ## Content locations
 
+**Tip:** To edit a text in VSCode, go to the Search panel (Ctrl+Shift+F) and search for a unique phrase from the text. It will show you the file where the text is located.
+
 The main author profile used on the front page is at `content/authors/admin/_index.md`.
 
 Place `publications.bib` in the repository root. Updating this file triggers the import workflow `.github/workflows/import-publications.yml`, which converts the BibTeX file into `content/publication/` pages and opens a pull request.
