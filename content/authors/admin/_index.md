@@ -30,16 +30,16 @@ organizations:
 # Social network links (please update with actual URLs)
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:david.gomezullate@ie.edu'
     label: E-mail Me
   - icon: brands/github
-    url: ''
+    url: 'https://github.com/dgullate'
   - icon: brands/linkedin
-    url: ''
+    url: 'https://www.linkedin.com/in/david-g%C3%B3mez-ullate-oteiza-87a820b/'
   - icon: academicons/google-scholar
-    url: ''
+    url: 'https://scholar.google.com/citations?user=sgEsEhwAAAAJ'
   - icon: academicons/orcid
-    url: ''
+    url: 'https://orcid.org/0000-0002-6890-6584'
 
 education:
   - area: Ph.D. in Physics
