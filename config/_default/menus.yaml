@@ -9,21 +9,18 @@ main:
   - name: Bio
     url: /
     weight: 10
+  - name: Academic Research
+    url: /research
+    weight: 11
+  - name: Industrial Projects
+    url: /industry
+    weight: 12
+  - name: Leadership
+    url: /leadership
+    weight: 13
+  - name: Talks
+    url: /event
+    weight: 14
   - name: Publications
     url: /publication
     weight: 50
-  - name: Talks
-    url: /event
-    weight: 12
-  - name: Experience
-    url: experience/
-    weight: 20
-  - name: Projects
-    url: projects/
-    weight: 30
-  - name: Uses
-    url: uses/
-    weight: 40
-  - name: Research
-    url: /research
-    weight: 11
