@@ -45,9 +45,11 @@ sections:
       title: 'Welcome 👋'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am Professor of Applied Mathematics and Head of Mathematics at IE University. My work bridges mathematical physics, approximation theory, and applied machine learning, with an emphasis on transferring mathematical research to practical industry applications.
 
-        **Specialties:** Analytics & Data, Leadership, Programming, Strategic Planning, Writing & Editing
+        I lead projects on knowledge transfer and applied data science, and write about research, industry collaboration, and sustainable, impact-driven solutions.
+
+        **Specialties:** Exceptional orthogonal polynomials, Mathematical Physics, Approximation Theory, Applied Machine Learning, Knowledge Transfer
     design:
       columns: '1'
   - block: collection
