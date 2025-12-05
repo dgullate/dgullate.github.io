@@ -22,24 +22,24 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: stats
-    content:
-      items:
-        - statistic: "15"
-          description: |
-            Publications
-        - statistic: "1,000+"
-          description: |
-            Citations
-        - statistic: "78"
-          description: |
-            h-index
-    design:
+#  - block: stats
+#    content:
+#      items:
+#        - statistic: "15"
+#          description: |
+#            Publications
+#        - statistic: "1,000+"
+#          description: |
+#            Citations
+#        - statistic: "78"
+#          description: |
+#            h-index
+#    design:
       # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
+#      css_class: "bg-gray-100 dark:bg-gray-900"
       # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+#      spacing:
+#        padding: [0, 0, 0, 0]
   - block: markdown
     content:
       title: 'Welcome 👋'
