@@ -9,8 +9,8 @@ design:
 
 # Page sections
 sections:
-  - block: resume-projects
-  # Template in _vendor\github.com\HugoBlox\all-access\blox-all-access\blox\resume-projects.html
+  - block: resume-research
+  # Template in _vendor\github.com\HugoBlox\all-access\blox-all-access\blox\resume-research.html
     content:
       title: Academic Research
       text: Selected academic research projects in exceptional orthogonal polynomials, mathematical physics, approximation theory, integrable and chaotic dynamical systems, and applied machine learning.
