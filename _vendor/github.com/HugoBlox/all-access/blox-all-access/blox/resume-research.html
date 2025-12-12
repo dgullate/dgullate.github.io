@@ -76,18 +76,16 @@ description: text
                 </div>
                 <div class="flex-1 min-w-0">
                   <h2 class="text-lg font-semibold text-neutral-800 dark:text-neutral-100">
-                    <a href="{{.url}}" target="_blank" rel="noopener" class="hover:text-primary-600 dark:hover:text-primary-400">
-                      {{.title}}
-                      {{ if and .start_date .end_date }}
-                        {{ $startYear := (time .start_date).Year }}
-                        {{ $endYear := (time .end_date).Year }}
-                        <span class="text-base font-normal text-neutral-500 dark:text-neutral-400">({{ $startYear }} - {{ $endYear }})</span>
-                      {{ else if .start_date }}
-                        {{ $startYear := (time .start_date).Year }}
-                        <span class="text-base font-normal text-neutral-500 dark:text-neutral-400">({{ $startYear }} - present)</span>
-                      {{ end }}
-                    </a>
+                    <a href="{{.url}}" target="_blank" rel="noopener" class="hover:text-primary-600 dark:hover:text-primary-400">{{.title}}</a>
                   </h2>
+                  {{ if and .start_date .end_date }}
+                    {{ $startYear := (time .start_date).Year }}
+                    {{ $endYear := (time .end_date).Year }}
+                    <p class="mt-1 text-sm font-normal text-neutral-500 dark:text-neutral-400">({{ $startYear }} - {{ $endYear }})</p>
+                  {{ else if .start_date }}
+                    {{ $startYear := (time .start_date).Year }}
+                    <p class="mt-1 text-sm font-normal text-neutral-500 dark:text-neutral-400">({{ $startYear }} - present)</p>
+                  {{ end }}
                   <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-400">
                     {{.description | markdownify }}
                   </p>
