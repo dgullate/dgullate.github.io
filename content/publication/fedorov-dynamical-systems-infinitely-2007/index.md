@@ -2,7 +2,7 @@
 title: Dynamical Systems on Infinitely Sheeted Riemann Surfaces
 authors:
 - Yuri N. Fedorov
-- David Gómez-Ullate
+- admin
 date: '2007-03-01'
 publishDate: '2025-10-21T14:54:43.219163Z'
 publication_types:
