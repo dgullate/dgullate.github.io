@@ -3,7 +3,7 @@ title: Bayesian Factorization Machines for Risk Management and Robust Decision M
 authors:
 - Pablo Angulo
 - Víctor Gallego
-- David Gómez-Ullate
+- admin
 - Pablo Suárez-García
 date: '2018-01-01'
 publishDate: '2025-10-21T14:54:43.141008Z'

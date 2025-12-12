@@ -1,7 +1,7 @@
 ---
 title: Corrigendum on the Proof of Completeness for Exceptional Hermite Polynomials
 authors:
-- David Gómez-Ullate
+- admin
 - Yves Grandati
 - Robert Milson
 date: '2020-05-01'

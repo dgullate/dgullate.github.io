@@ -7,7 +7,7 @@ authors:
 - Matthias F. Wagner
 - Jörg Schäfer
 - Inmaculada Medina-Bulo
-- David Gómez-Ullate
+- admin
 date: '2021-02-01'
 publishDate: '2025-10-21T14:54:43.171771Z'
 publication_types:

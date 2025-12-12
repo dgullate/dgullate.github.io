@@ -1,7 +1,7 @@
 ---
 title: A Survey of Quasi-Exactly Solvable Systems and Spin Calogero-Sutherland Models
 authors:
-- D. Gómez-Ullate
+- admin
 - F. Finkel
 - A. González-López
 - M. Rodriguez

@@ -1,7 +1,7 @@
 ---
 title: Exceptional Orthogonal Polynomials and the Darboux Transformation
 authors:
-- D Gómez-Ullate
+- admin
 - N Kamran
 - R Milson
 date: '2010-10-01'

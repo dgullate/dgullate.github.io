@@ -4,7 +4,7 @@ authors:
 - Victor Gallego
 - Roi Naveiro
 - David Rios Insua
-- David Gómez-Ullate
+- admin
 date: '2019-01-01'
 publishDate: '2025-10-21T14:54:43.260026Z'
 publication_types:

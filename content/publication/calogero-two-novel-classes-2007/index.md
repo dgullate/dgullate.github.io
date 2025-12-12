@@ -2,7 +2,7 @@
 title: Two Novel Classes of Solvable Many-Body Problems of Goldfish Type with Constraints
 authors:
 - F Calogero
-- D Gómez-Ullate
+- admin
 date: '2007-05-01'
 publishDate: '2025-10-21T14:54:43.205909Z'
 publication_types:

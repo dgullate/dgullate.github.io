@@ -1,7 +1,7 @@
 ---
 title: Quasi-Exact Solvability in a General Polynomial Setting
 authors:
-- D Gómez-Ullate
+- admin
 - N Kamran
 - R Milson
 date: '2007-10-01'

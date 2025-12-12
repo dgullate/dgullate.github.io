@@ -3,7 +3,7 @@ title: A New Class of Solvable Many-Body Problems with Constraints, Associated w
   an Exceptional Polynomial Subspace of Codimension 2
 authors:
 - F Calogero
-- D Gómez-Ullate
+- admin
 date: '2007-07-01'
 publishDate: '2025-10-21T14:54:43.185834Z'
 publication_types:

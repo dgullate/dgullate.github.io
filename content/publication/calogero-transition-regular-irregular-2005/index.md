@@ -3,7 +3,7 @@ title: The Transition from Regular to Irregular Motions, Explained as Travel on 
   Surfaces
 authors:
 - F Calogero
-- D Gómez-Ullate
+- admin
 - P M Santini
 - M Sommacal
 date: '2005-10-01'

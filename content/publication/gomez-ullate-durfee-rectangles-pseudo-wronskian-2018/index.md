@@ -1,7 +1,7 @@
 ---
 title: Durfee Rectangles and Pseudo-Wronskian Equivalences for Hermite Polynomials
 authors:
-- David Gómez-Ullate
+- admin
 - Yves Grandati
 - Robert Milson
 date: '2018-11-01'

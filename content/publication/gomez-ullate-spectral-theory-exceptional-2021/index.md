@@ -1,7 +1,7 @@
 ---
 title: Spectral Theory of Exceptional Hermite Polynomials
 authors:
-- David Gómez-Ullate
+- admin
 - Yves Grandati
 - Robert Milson
 date: '2021-01-01'

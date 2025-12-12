@@ -1,7 +1,7 @@
 ---
 title: 'Green Navigation: Optimización de Rutas Marítimas'
 authors:
-- David Gómez-Ullate Oteiza
+- admin
 - Javier Jiménez de la Jara
 - Daniel Precioso Garcelan
 - Victoria Redondo

@@ -1,7 +1,7 @@
 ---
 title: Complete Classification of Rational Solutions of A2-Painlevé Systems
 authors:
-- David Gómez-Ullate
+- admin
 - Yves Grandati
 - Robert Milson
 date: '2021-07-01'

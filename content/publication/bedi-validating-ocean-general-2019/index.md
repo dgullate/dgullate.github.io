@@ -3,7 +3,7 @@ title: Validating Ocean General Circulation Models via Lagrangian Particle Simul
   and Data from Drifting Buoys
 authors:
 - Karan Bedi
-- David Gómez-Ullate
+- admin
 - Alfredo Izquierdo
 - Tomás Fernández Montblanc
 date: '2019-01-01'

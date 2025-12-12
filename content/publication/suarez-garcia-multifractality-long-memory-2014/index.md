@@ -2,7 +2,7 @@
 title: Multifractality and Long Memory of a Financial Index
 authors:
 - Pablo Suárez-García
-- David Gómez-Ullate
+- admin
 date: '2014-01-01'
 publishDate: '2025-10-21T14:54:43.625660Z'
 publication_types:

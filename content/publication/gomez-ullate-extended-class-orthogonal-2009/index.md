@@ -1,7 +1,7 @@
 ---
 title: An Extended Class of Orthogonal Polynomials Defined by a Sturm--Liouville Problem
 authors:
-- David Gómez-Ullate
+- admin
 - Niky Kamran
 - Robert Milson
 date: '2009-11-01'

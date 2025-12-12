@@ -1,7 +1,7 @@
 ---
 title: Quasi-Exact Solvability And Calogero-Sutherland Models
 authors:
-- D. Gómez-Ullate
+- admin
 - F. Finkel
 - A. González-López
 - M. A. Rodríguez

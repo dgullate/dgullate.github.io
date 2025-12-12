@@ -2,7 +2,7 @@
 title: New Spin Calogero--Sutherland Models Related to BN-type Dunkl Operators
 authors:
 - F. Finkel
-- D. Gómez-Ullate
+- admin
 - A. González-López
 - M.A. Rodríguez
 - R. Zhdanov

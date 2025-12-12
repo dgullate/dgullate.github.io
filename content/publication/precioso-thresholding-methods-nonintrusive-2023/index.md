@@ -2,7 +2,7 @@
 title: Thresholding Methods in Non-Intrusive Load Monitoring
 authors:
 - Daniel Precioso
-- David Gómez-Ullate
+- admin
 date: '2023-09-01'
 publishDate: '2025-10-21T14:54:43.583503Z'
 publication_types:

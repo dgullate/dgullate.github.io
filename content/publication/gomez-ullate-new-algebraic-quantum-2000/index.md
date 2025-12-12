@@ -1,7 +1,7 @@
 ---
 title: New Algebraic Quantum Many-Body Problems
 authors:
-- D Gómez-Ullate
+- admin
 - A González-López
 - M A Rodríguez
 date: '2000-10-01'

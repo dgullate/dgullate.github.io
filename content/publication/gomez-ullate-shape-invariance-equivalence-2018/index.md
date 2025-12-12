@@ -2,7 +2,7 @@
 title: Shape Invariance and Equivalence Relations for Pseudo-Wronskians of Laguerre
   and Jacobi Polynomials
 authors:
-- David Gómez-Ullate
+- admin
 - Yves Grandati
 - Robert Milson
 date: '2018-08-01'

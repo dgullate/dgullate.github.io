@@ -9,7 +9,7 @@ authors:
 - Javier Jiménez
 - Isabel Benavente-Fernández
 - Janet Pigueiras
-- David Gómez-Ullate
+- admin
 - Lionel C. Gontard
 date: '2023-06-01'
 publishDate: '2025-10-21T14:54:43.618419Z'

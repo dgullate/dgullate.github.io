@@ -1,7 +1,7 @@
 ---
 title: Ladder Operators and Rational Extensions
 authors:
-- David Gómez-Ullate
+- admin
 - Yves Grandati
 - Zoé McIntyre
 - Robert Milson

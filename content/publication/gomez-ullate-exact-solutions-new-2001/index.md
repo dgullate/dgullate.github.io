@@ -1,7 +1,7 @@
 ---
 title: Exact Solutions of a New Elliptic Calogero--Sutherland Model
 authors:
-- D. Gómez-Ullate
+- admin
 - A. González-López
 - M.A. Rodríguez
 date: '2001-06-01'

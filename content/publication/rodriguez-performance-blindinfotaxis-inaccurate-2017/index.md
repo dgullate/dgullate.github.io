@@ -2,7 +2,7 @@
 title: On the Performance of Blind-Infotaxis under Inaccurate Modeling of the Environment
 authors:
 - Juan Duque Rodríguez
-- David Gómez-Ullate
+- admin
 - Carlos Mejía-Monasterio
 date: '2017-07-01'
 publishDate: '2025-10-21T14:54:43.611422Z'

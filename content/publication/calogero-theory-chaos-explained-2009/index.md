@@ -2,7 +2,7 @@
 title: Towards a Theory of Chaos Explained as Travel on Riemann Surfaces
 authors:
 - F Calogero
-- D Gómez-Ullate
+- admin
 - P M Santini
 - M Sommacal
 date: '2009-01-01'

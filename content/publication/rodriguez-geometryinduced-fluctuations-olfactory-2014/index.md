@@ -2,7 +2,7 @@
 title: Geometry-Induced Fluctuations of Olfactory Searches in Bounded Domains
 authors:
 - Juan Duque Rodríguez
-- David Gómez-Ullate
+- admin
 - Carlos Mejía-Monasterio
 date: '2014-04-01'
 publishDate: '2025-10-21T14:54:43.604479Z'

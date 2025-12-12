@@ -1,7 +1,7 @@
 ---
 title: "An Extension of Bochner's Problem: Exceptional Invariant Subspaces"
 authors:
-- David Gómez-Ullate
+- admin
 - Niky Kamran
 - Robert Milson
 date: '2010-05-01'

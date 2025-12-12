@@ -8,7 +8,7 @@ authors:
 - Alberto Torres-Barrán
 - David Gordo
 - V̧́tor Gallego
-- David Gómez-Ullate
+- admin
 date: '2022-06-01'
 publishDate: '2025-10-21T14:54:43.590420Z'
 publication_types:

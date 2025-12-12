@@ -2,7 +2,7 @@
 title: Exceptional Legendre Polynomials and Confluent Darboux Transformations
 authors:
 - María Ángeles García-Ferrero
-- David Gómez-Ullate
+- admin
 - Robert Milson
 date: '2021-02-01'
 publishDate: '2025-10-21T14:54:43.286758Z'

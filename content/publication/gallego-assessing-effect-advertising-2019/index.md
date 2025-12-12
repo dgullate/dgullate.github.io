@@ -5,7 +5,7 @@ authors:
 - Víctor Gallego
 - Pablo Suárez-García
 - Pablo Angulo
-- David Gómez-Ullate
+- admin
 date: '2019-05-01'
 publishDate: '2025-10-21T14:54:43.253338Z'
 publication_types:

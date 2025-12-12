@@ -2,7 +2,7 @@
 title: 'Big data: conceptos, tecnologías y aplicaciones'
 authors:
 - David Ríos Insua
-- David Gómez-Ullate Oteiza
+- admin
 date: '2019-01-01'
 publishDate: '2025-10-21T14:54:43.597868Z'
 publication_types:

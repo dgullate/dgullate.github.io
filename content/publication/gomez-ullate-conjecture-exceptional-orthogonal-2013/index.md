@@ -1,7 +1,7 @@
 ---
 title: A Conjecture on Exceptional Orthogonal Polynomials
 authors:
-- David Gómez-Ullate
+- admin
 - Niky Kamran
 - Robert Milson
 date: '2013-08-01'

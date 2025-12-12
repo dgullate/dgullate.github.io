@@ -3,7 +3,7 @@ title: Scaling, Stability and Distribution of the High-Frequency Returns of the 
   Index
 authors:
 - Pablo Suárez-García
-- David Gómez-Ullate
+- admin
 date: '2013-03-01'
 publishDate: '2025-10-21T14:54:43.632309Z'
 publication_types:

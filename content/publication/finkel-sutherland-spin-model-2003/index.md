@@ -2,7 +2,7 @@
 title: On the Sutherland Spin Model of B N Type and Its Associated Spin Chain
 authors:
 - F. Finkel
-- D. Gómez-Ullate
+- admin
 - A. González-López
 - M.A. Rodríguez
 - R. Zhdanov

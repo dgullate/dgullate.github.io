@@ -1,7 +1,7 @@
 ---
 title: Symmetry Classification of Systems of Differential-Difference Equations
 authors:
-- D. Gómez-Ullate
+- admin
 - S. Lafortune
 - P. Winternitz
 date: '2000-06-01'

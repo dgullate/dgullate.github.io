@@ -2,7 +2,7 @@
 title: Reply to Comment on The Darboux Transformation and Algebraic Deformations of
   Shape-Invariant Potentials
 authors:
-- D Gómez-Ullate
+- admin
 - N Kamran
 - R Milson
 date: '2004-08-01'

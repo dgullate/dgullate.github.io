@@ -1,7 +1,7 @@
 ---
 title: Técnicas Algebraicas En Sistemas Cuánticos de Muchas Partículas
 authors:
-- David Gómez-Ullate Oteiza
+- admin
 date: '2001-01-01'
 publishDate: '2025-10-21T14:54:43.411592Z'
 publication_types:

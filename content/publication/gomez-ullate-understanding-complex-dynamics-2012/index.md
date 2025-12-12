@@ -1,7 +1,7 @@
 ---
 title: Understanding Complex Dynamics by Means of an Associated Riemann Surface
 authors:
-- D. Gómez-Ullate
+- admin
 - P.M. Santini
 - M. Sommacal
 - F. Calogero

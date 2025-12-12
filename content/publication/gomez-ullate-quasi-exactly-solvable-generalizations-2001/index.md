@@ -1,7 +1,7 @@
 ---
 title: Quasi-Exactly Solvable Generalizations of Calogero--Sutherland Models
 authors:
-- D. Gómez-Ullate
+- admin
 - A. González-López
 - M. A. Rodríguez
 date: '2001-06-01'

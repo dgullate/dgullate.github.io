@@ -1,7 +1,7 @@
 ---
 title: Symmetries of Discrete Dynamical Systems Involving Two Species
 authors:
-- D. Gómez-Ullate
+- admin
 - S. Lafortune
 - P. Winternitz
 date: '1999-06-01'

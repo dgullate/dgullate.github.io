@@ -1,7 +1,7 @@
 ---
 title: Recurrence Relations for Exceptional Hermite Polynomials
 authors:
-- D. Gómez-Ullate
+- admin
 - A. Kasman
 - A.B.J. Kuijlaars
 - R. Milson

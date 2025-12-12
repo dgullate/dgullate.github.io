@@ -1,7 +1,7 @@
 ---
 title: 'Tun-AI: Using Echosounder Buoy Technology to Study Tuna Behaviour at Sea'
 authors:
-- David Gómez-Ullate Oteiza
+- admin
 - Alberto Torres Barrán
 - Kathryn Gavira-O'Neill
 date: '2023-01-01'

@@ -2,7 +2,7 @@
 title: A Bochner Type Characterization Theorem for Exceptional Orthogonal Polynomials
 authors:
 - MaÁngeles García-Ferrero
-- David Gómez-Ullate
+- admin
 - Robert Milson
 date: '2019-04-01'
 publishDate: '2025-10-21T14:54:43.266674Z'

@@ -1,7 +1,7 @@
 ---
 title: New Many-Body Problems in the Plane with Periodic Solutions
 authors:
-- D Gómez-Ullate
+- admin
 - A N W Hone
 - M Sommacal
 date: '2004-02-01'

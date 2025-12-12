@@ -1,7 +1,7 @@
 ---
 title: Two-Step Darboux Transformations and Exceptional Laguerre Polynomials
 authors:
-- David Gómez-Ullate
+- admin
 - Niky Kamran
 - Robert Milson
 date: '2012-03-01'

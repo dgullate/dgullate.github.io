@@ -2,7 +2,7 @@
 title: Asymptotic and Interlacing Properties of Zeros of Exceptional Jacobi and Laguerre
   Polynomials
 authors:
-- David Gómez-Ullate
+- admin
 - Francisco Marcellán
 - Robert Milson
 date: '2013-03-01'

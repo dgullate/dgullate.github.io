@@ -6,7 +6,7 @@ authors:
 - Daniel Precioso
 - Aurelio Muñoz
 - M. Victoria Redondo-Neble
-- David Gómez-Ullate
+- admin
 date: '2025-10-01'
 publishDate: '2025-10-21T14:54:43.556641Z'
 publication_types:

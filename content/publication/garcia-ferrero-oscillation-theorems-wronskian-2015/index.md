@@ -3,7 +3,7 @@ title: Oscillation Theorems for the Wronskian of an Arbitrary Sequence of Eigenf
   of Schrödinger's Equation
 authors:
 - MªÁngeles García-Ferrero
-- David Gómez-Ullate
+- admin
 date: '2015-04-01'
 publishDate: '2025-10-21T14:54:43.293393Z'
 publication_types:

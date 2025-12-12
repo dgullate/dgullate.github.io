@@ -7,7 +7,7 @@ authors:
 - M. Victoria Redondo-Neble
 - Robert Milson
 - Rafael Ballester-Ripoll
-- David Gómez-Ullate
+- admin
 date: '2025-03-01'
 publishDate: '2025-10-21T14:54:43.549228Z'
 publication_types:

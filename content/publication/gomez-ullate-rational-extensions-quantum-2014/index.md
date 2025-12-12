@@ -2,7 +2,7 @@
 title: Rational Extensions of the Quantum Harmonic Oscillator and Exceptional Hermite
   Polynomials
 authors:
-- David Gómez-Ullate
+- admin
 - Yves Grandati
 - Robert Milson
 date: '2014-01-01'

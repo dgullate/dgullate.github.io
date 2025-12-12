@@ -1,7 +1,7 @@
 ---
 title: Rational Solutions of Painlevé Systems.
 authors:
-- D. Gómez-Ullate
+- admin
 - Y. Grandati
 - R. Mison
 date: '2019-12-01'

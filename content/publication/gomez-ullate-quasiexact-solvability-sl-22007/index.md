@@ -1,7 +1,7 @@
 ---
 title: Quasi-Exact Solvability beyond the Sl(2) Algebraization
 authors:
-- D. Gómez-Ullate
+- admin
 - N. Kamran
 - R. Milson
 date: '2007-03-01'

@@ -1,7 +1,7 @@
 ---
 title: Quasi-Exact Solvability and the Direct Approach to Invariant Subspaces
 authors:
-- D Gómez-Ullate
+- admin
 - N Kamran
 - R Milson
 date: '2005-03-01'

@@ -1,7 +1,7 @@
 ---
 title: On Orthogonal Polynomials Spanning a Non-Standard Flag
 authors:
-- David Gómez-Ullate
+- admin
 - Niky Kamran
 - Robert Milson
 date: '2012-01-01'

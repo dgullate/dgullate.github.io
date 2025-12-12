@@ -2,7 +2,7 @@
 title: Structure Theorems for Linear and Non-Linear Differential Operators Admitting
   Invariant Polynomial Subspaces
 authors:
-- David Gómez-Ullate
+- admin
 - Niky Kamran
 - Robert Milson
 date: '2007-01-01'

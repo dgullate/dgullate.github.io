@@ -1,7 +1,7 @@
 ---
 title: Supersymmetry and Algebraic Darboux Transformations
 authors:
-- D Gómez-Ullate
+- admin
 - N Kamran
 - R Milson
 date: '2004-10-01'

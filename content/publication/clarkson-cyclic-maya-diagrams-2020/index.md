@@ -2,7 +2,7 @@
 title: Cyclic Maya Diagrams and Rational Solutions of Higher Order Painlevé Systems
 authors:
 - Peter A. Clarkson
-- David Gómez-Ullate
+- admin
 - Yves Grandati
 - Robert Milson
 date: '2020-04-01'

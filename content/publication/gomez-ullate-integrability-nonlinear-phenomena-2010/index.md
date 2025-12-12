@@ -1,7 +1,7 @@
 ---
 title: Integrability and Nonlinear Phenomena
 authors:
-- David Gómez-Ullate
+- admin
 - Sara Lombardo
 - Manuel Mañas
 - Marta Mazzocco

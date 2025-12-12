@@ -2,7 +2,7 @@
 title: A N -Type Dunkl Operators and New Spin Calogero-Sutherland Models
 authors:
 - F. Finkel
-- D. Gómez-Ullate
+- admin
 - A. González-López
 - M. A. Rodríguez
 - R. Zhdanov
