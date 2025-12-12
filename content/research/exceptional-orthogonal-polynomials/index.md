@@ -15,6 +15,11 @@ We originally coined the name exceptional orthogonal polynomials for this new cl
 
 Together with many collaborators, but especially with my friend [Rob Milson](https://scholar.google.com/citations?user=HRIY4N8AAAAJ&hl=en), I have devoted the past 20 years of my life to developing the theory of exceptional orthogonal polynomials, which has also attracted many talented researchers worldwide. We are now close to providing a complete classification of all such families, in much the same way as Bochner did in 1929. Yet many of the novel applications that these new building blocks unravel are yet to be developed.
 
+
+## Selected publications
+
+
+
 ## Recent talks
 
 <div class="talk-card">
