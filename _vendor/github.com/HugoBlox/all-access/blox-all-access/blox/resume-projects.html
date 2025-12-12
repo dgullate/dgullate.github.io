@@ -24,9 +24,24 @@ description: text
   {{ end }}
 {{ end }}
 
-{{/* Sort items by start_date in descending order */}}
+{{/* Sort items: ongoing projects first (no end_date), then by end_date desc, then start_date desc */}}
 {{ if $items }}
-  {{ $items = sort $items "start_date" "desc" }}
+  {{ $sortedItems := slice }}
+  {{ $ongoingItems := slice }}
+  {{ $completedItems := slice }}
+  
+  {{ range $items }}
+    {{ if .end_date }}
+      {{ $completedItems = $completedItems | append . }}
+    {{ else }}
+      {{ $ongoingItems = $ongoingItems | append . }}
+    {{ end }}
+  {{ end }}
+  
+  {{ $ongoingItems = sort $ongoingItems "start_date" "desc" }}
+  {{ $completedItems = sort $completedItems "end_date" "desc" }}
+  
+  {{ $items = $ongoingItems | append $completedItems }}
 {{ end }}
 
 {{ if $block.content.title }}
