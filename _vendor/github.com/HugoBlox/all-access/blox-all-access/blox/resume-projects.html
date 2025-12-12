@@ -14,6 +14,16 @@ description: text
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 
+{{/* Auto-collect items from child pages if not explicitly defined */}}
+{{ $items := $block.content.items }}
+{{ if not $items }}
+  {{ $items = slice }}
+  {{ range $page.Pages }}
+    {{ $item := dict "title" .Title "description" .Params.description "url" .RelPermalink "image" (.Resources.GetMatch "featured*").RelPermalink "start_date" .Params.start_date "end_date" .Params.end_date }}
+    {{ $items = $items | append $item }}
+  {{ end }}
+{{ end }}
+
 {{ if $block.content.title }}
 <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
 
@@ -32,7 +42,7 @@ description: text
         <div class="mx-auto max-w-2xl lg:max-w-5xl">
           <div class="mt-16 sm:mt-20">
             <ul class="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3" role="list">
-              {{ range $idx, $key := $block.content.items }}
+              {{ range $idx, $key := $items }}
               <li class="group relative flex flex-col items-start">
                 <div class="relative z-10 flex h-[150px] w-[150px] items-center justify-center rounded-full bg-white shadow-md shadow-neutral-800/5 ring-1 ring-neutral-900/5 dark:border dark:border-neutral-700/50 dark:bg-neutral-800 dark:ring-0">
                   {{- $img := resources.GetMatch (path.Join "media" .image) -}}
