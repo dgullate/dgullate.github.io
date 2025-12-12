@@ -14,3 +14,25 @@ Since the work of Solomon Bochner, almost 100 years ago, it was believed that th
 We originally coined the name exceptional orthogonal polynomials for this new class because we believed that they were very rare, and indeed we first found them via rather involved group theoretic arguments. Soon after we published our article, Christianne Quesne (ULB) showed that our new examples could be obtained by applying Darboux transformations to classical families, and this was a seminal discovery, since iterated Darboux transformations were the key tool to generate larger families of exceptional orthogonal polynomials, as initiated shortly after by Odake and Sasaki.
 
 Together with many collaborators, but especially with my friend [Rob Milson](https://scholar.google.com/citations?user=HRIY4N8AAAAJ&hl=en), I have devoted the past 20 years of my life to developing the theory of exceptional orthogonal polynomials, which has also attracted many talented researchers worldwide. We are now close to providing a complete classification of all such families, in much the same way as Bochner did in 1929. Yet many of the novel applications that these new building blocks unravel are yet to be developed.
+
+## Recent talks
+
+<div class="talk-card">
+  <a href="/talk/2024-icms-exceptional-polynomials/">
+    <img src="/media/talks/2024-icms-thumb.jpg" alt="ICMS talk thumbnail" width="120">
+  </a>
+  <div class="talk-meta">
+    <strong>ICMS Mini-Symposium 2024</strong><br>
+    Slides and recording hosted on the <a href="/talk/2024-icms-exceptional-polynomials/">talk page</a>.
+  </div>
+</div>
+
+<div class="talk-card">
+  <a href="/talk/2023-simons-orthogonal-polynomials/">
+    <img src="/media/talks/2023-simons-thumb.jpg" alt="Simons talk thumbnail" width="120">
+  </a>
+  <div class="talk-meta">
+    <strong>Simons Center Workshop 2023</strong><br>
+    Visit the <a href="/talk/2023-simons-orthogonal-polynomials/">presentation page</a> for details and downloads.
+  </div>
+</div>
