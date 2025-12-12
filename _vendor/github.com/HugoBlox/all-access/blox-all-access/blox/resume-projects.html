@@ -19,7 +19,7 @@ description: text
 {{ if not $items }}
   {{ $items = slice }}
   {{ range $page.Pages }}
-    {{ $item := dict "title" .Title "description" .Params.description "url" .RelPermalink "image" (.Resources.GetMatch "featured*").RelPermalink "start_date" .Params.start_date "end_date" .Params.end_date }}
+    {{ $item := dict "title" .Title "description" .Params.description "url" .RelPermalink "imageResource" (.Resources.GetMatch "featured*") "start_date" .Params.start_date "end_date" .Params.end_date }}
     {{ $items = $items | append $item }}
   {{ end }}
 {{ end }}
@@ -45,10 +45,13 @@ description: text
               {{ range $idx, $key := $items }}
               <li class="group relative flex flex-col items-start">
                 <div class="relative z-10 flex h-[150px] w-[150px] items-center justify-center rounded-full bg-white shadow-md shadow-neutral-800/5 ring-1 ring-neutral-900/5 dark:border dark:border-neutral-700/50 dark:bg-neutral-800 dark:ring-0">
-                  {{- $img := resources.GetMatch (path.Join "media" .image) -}}
+                  {{- $img := .imageResource -}}
+                  {{ if not $img }}
+                    {{- $img = resources.GetMatch (path.Join "media" .image) -}}
+                  {{ end }}
                   {{ with $img }}
-                  {{ $img = $img.Process "Fill 100x100 Center webp" }}
-                  <img alt="" class="h-[100px] w-[100px]" data-nimg="1" decoding="async" height="{{$img.Height}}" width="{{$img.Width}}" loading="lazy" src="{{$img.RelPermalink}}" style="color: transparent;">
+                    {{ $img = $img.Fit "150x150 webp" }}
+                    <img alt="" class="h-[150px] w-[150px] rounded-full object-cover" data-nimg="1" decoding="async" height="{{$img.Height}}" width="{{$img.Width}}" loading="lazy" src="{{$img.RelPermalink}}" style="color: transparent;">
                   {{ end}}
                 </div>
                 <h2 class="mt-6 text-base font-semibold text-neutral-800 dark:text-neutral-100">
