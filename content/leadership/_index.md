@@ -11,8 +11,6 @@ banner:
   image: ''
 ---
 
-This page highlights leadership roles, initiatives, and mentoring activities held by David Gómez-Ullate.
-
 ## Academic Leadership
 
 - **Vice Dean of Research**, IE School of Science & Technology — 2024–Present
@@ -38,4 +36,4 @@ This page highlights leadership roles, initiatives, and mentoring activities hel
 
 - Supervision and mentoring of PhD students and postdoctoral researchers; active involvement in knowledge-transfer initiatives and public engagement.
 
-Add individual leadership entries as markdown files under `content/leadership/` if you want separate pages for specific initiatives.
+<!-- Add individual leadership entries as markdown files under `content/leadership/` if you want separate pages for specific initiatives. -->
