@@ -55,6 +55,21 @@ description: text
 </div>
 {{ end }}
 
+<style>
+  .research-image-container {
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .research-image-container img {
+    transition: transform 0.3s ease;
+  }
+  
+  .group:hover .research-image-container img {
+    transform: scale(1.15);
+  }
+</style>
+
 <div class="flex-auto">
   <div class="sm:px-8 mt-4 sm:mt-6">  <!-- Adjusted margin between title and list -->
     <div class="mx-auto w-full max-w-7xl lg:px-8">
@@ -64,13 +79,13 @@ description: text
             <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6" role="list">
               {{ range $idx, $key := $items }}
               <li class="group relative flex flex-row items-start gap-4 p-4 rounded-2xl transition hover:bg-neutral-50 dark:hover:bg-neutral-800/50">
-                <div class="relative z-10 flex h-[120px] w-[120px] flex-shrink-0 items-center justify-center rounded-full bg-white shadow-md shadow-neutral-800/5 ring-1 ring-neutral-900/5 dark:border dark:border-neutral-700/50 dark:bg-neutral-800 dark:ring-0">
+                <div class="relative z-10 flex h-[120px] w-[120px] flex-shrink-0 items-center justify-center rounded-full bg-white shadow-md shadow-neutral-800/5 ring-1 ring-neutral-900/5 dark:border dark:border-neutral-700/50 dark:bg-neutral-800 dark:ring-0 research-image-container">
                   {{- $img := .imageResource -}}
                   {{ if not $img }}
                     {{- $img = resources.GetMatch (path.Join "media" .image) -}}
                   {{ end }}
                   {{ with $img }}
-                    {{ $img = $img.Fit "120x120 webp" }}
+                    {{ $img = $img.Fill "120x120 webp" }}
                     <img alt="" class="h-[120px] w-[120px] rounded-full object-cover" data-nimg="1" decoding="async" height="{{$img.Height}}" width="{{$img.Width}}" loading="lazy" src="{{$img.RelPermalink}}" style="color: transparent;">
                   {{ end}}
                 </div>
