@@ -13,6 +13,6 @@ sections:
   # Template in _vendor\github.com\HugoBlox\all-access\blox-all-access\blox\resume-projects.html
     content:
       title: Industrial Projects
-      # text: Curated industrial projects demonstrating successful mathematics-to-industry knowledge transfer: fraud detection, fisheries monitoring, biomedical analytics, legaltech solutions, aeronautical collaborations, and the Smart Shipping route-optimization project for maritime decarbonization.
-      # The items list is now generated automatically from content/industry subpages.
+      text: Industrial collaborations where mathematical modeling and data science are transferred to real operations, including finance, fisheries, biomedical analytics, legaltech, aeronautics, and the Smart Shipping project for maritime decarbonization.
+      # The items list is generated automatically from content/industry subpages.
 ---

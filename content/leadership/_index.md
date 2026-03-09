@@ -29,8 +29,8 @@ banner:
 ## Industry Leadership & Knowledge Transfer
 
 - **Co-founder & Scientific Advisor**, Komorebi AI — 2019–Present
-- Coordinated knowledge-transfer projects with industry in the financial, fisheries, biomedical, legaltech, and aeronautical sectors.
-- Lead of **Smart Shipping**, a project for optimization of shipping routes using oceanographic data and forecasts to reduce maritime fuel use and emissions.
+- Coordinated 8 knowledge-transfer contracts with industry in the financial, fisheries, biomedical, legaltech, and aeronautical sectors.
+- Lead of **Smart Shipping**, a route planning project based on oceanographic data and forecasts, with a focus on reducing maritime emissions.
 
 ## Mentoring & Outreach
 

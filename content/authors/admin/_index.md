@@ -21,7 +21,7 @@ role: "Professor of Applied Mathematics — Head of Mathematics, School of Scien
 
 # Short summary / biography
 summary: |
-  I am a Professor of Applied Mathematics and Head of Mathematics at the School of Science & Technology, IE University. My research spans mathematical physics and approximation theory through to applied machine learning and data science. I am best known for my work on the theory of exceptional orthogonal polynomials and have published 60+ research papers in leading journals.
+  I am Professor of Applied Mathematics and Head of Mathematics at the School of Science & Technology, IE University. Before joining IE University, I held research positions at McGill University, the Centre de Recherches Mathématiques (Montréal), Università di Bologna, and the Institute of Mathematical Sciences in Madrid, as well as a tenured position at Complutense University of Madrid. My research spans mathematical physics, approximation theory, applied machine learning, and data science, and I am best known for the theory of exceptional orthogonal polynomials. I have published more than 60 research papers in leading journals and currently focus on knowledge transfer of mathematics to industry.
 
 organizations:
   - name: IE University
@@ -63,6 +63,11 @@ work:
     date_end: ''
     summary: |
       Vice Dean of Research, IE School of Science & Technology.
+  - position: Head of Mathematics
+    company_name: IE School of Science & Technology
+    company_url: https://www.ie.edu/
+    date_start: 2022-01-01
+    date_end: ''
   - position: Science & Technology Area Chair
     company_name: IE School of Science & Technology
     company_url: https://www.ie.edu/
@@ -120,7 +125,7 @@ awards:
       Awarded a Leonardo Scholarship (BBVA Foundation) for a project on credit card fraud detection.
 
 publications_summary: |
-  Author of 60+ research papers in journals including Advances in Mathematics, Studies in Applied Mathematics, Foundations of Computational Mathematics, Communications in Mathematical Physics, Journal of Physics A, and Physica D. Several works have received significant citations and international recognition.
+  Author of more than 60 research papers in journals including Advances in Mathematics, Studies in Applied Mathematics, Foundations of Computational Mathematics, Communications in Mathematical Physics, Journal of Physics A, and Physica D, with international recognition through plenary talks and invited seminars.
 
 sustainable_development_goals:
   - '7'
