@@ -36,7 +36,7 @@ This work shows how modern statistical methods can turn complex business data in
 
 This project was an Art.83 collaboration between my group at Universidad Complutense and Omnicom Media Group. Besides providing an actionable model for the advertising company, it led to a couple of academic publications:
 
-Assessing the effect of advertising expenditures upon sales:A Bayesian structural time series model
+[Assessing the effect of advertising expenditures upon sales:A Bayesian structural time series model](https://onlinelibrary.wiley.com/doi/10.1002/asmb.2460)
 
-Bayesian Factorization Machines for Risk Management and Robust Decision Making 
+[Bayesian Factorization Machines for Risk Management and Robust Decision Making](https://link.springer.com/chapter/10.1007/978-3-319-89824-7_9)
 

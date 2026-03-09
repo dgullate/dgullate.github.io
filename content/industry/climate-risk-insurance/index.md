@@ -16,5 +16,5 @@ The outcome is a new generation of climate-adjusted life tables that allow insur
 
 Methodologically, the project builds on exposure–response functions linking temperature to mortality, combined with high-resolution climate data and future climate scenarios (Shared Socioeconomic Pathways, SSPs). These relationships are propagated through an actuarial pipeline to produce climate-adjusted mortality rates and life tables by age, sex, and region. The framework integrates results from state-of-the-art epidemiological studies with demographic and actuarial modeling, enabling scenario-based projections of longevity and climate risk relevant for insurance portfolios.
 
-To learn more about the project, visit the project website. We are organizing the 3rd edition of the Climate Change and Insurance conference series (CCI 26) at IE University’s campus in Segovia, from 2-4 September 2026.
+To learn more about the project, visit the [project website](https://climateinsure.tech/). We are organizing the 3rd edition of the Climate Change and Insurance conference series ([CCI 26](https://cci26.climateinsure.tech/)) at IE University’s campus in Segovia, from 2-4 September 2026.
 

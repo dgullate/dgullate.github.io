@@ -17,9 +17,5 @@ Beyond improving biomass estimation for fishery operations, Tun-AI opens new ave
 The project allowed Stalink to automate and serve predictions in real time with higher accuracy than the human predictions in use before the project. The AI model is currently in use by more than 1500 fishing vessels. My role in the project was principal investigator and responsible for the contract, which was executed by Komorebi AI, where I supervised a team of 4 data scientists who built, evaluated and deployed the model in production.
 ### Media Coverage
 
-Tun-AI: Using echosounder buoy technology to study tuna behaviour at sea, Research Features Issue 149 (22/09/23)
-### Publications
-
-TUN-AI: Tuna biomass estimation with Machine Learning models trained on oceanography and echosounder FAD data. Fisheries Research 250 (2022): 106263.
-Aggregation dynamics of tropical tunas around drifting floating objects based on large-scale echo-sounder data. Marine Ecology Progress Series 715 (2023) 129-43. 
+Tun-AI: Using echosounder buoy technology to study tuna behaviour at sea, Research Features [Issue 149](https://researchfeatures.com/tun-ai-echosounder-buoy-technology-study-tuna-behaviour-sea/) (22/09/23)
 

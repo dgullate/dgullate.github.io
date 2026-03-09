@@ -20,10 +20,10 @@ Due to confidentiality clauses, we were unable to publish publicly available res
 ### Media Coverage
 
 “Matemáticas antirrobo y otras cuatro ideas para mejorar el mundo”, Diario EL País (30/07/2015)
-“La Fundación BBVA financia un proyecto basado en matemáticas que permitirá adelantarse al fraude bancario” ICMAT (29/07/2015) [link]
+“La Fundación BBVA financia un proyecto basado en matemáticas que permitirá adelantarse al fraude bancario” ICMAT (29/07/2015) [link](https://www.icmat.es/es/actualidad/np-29-07-15/)
 ### Projects and Contracts
 
-Artificial Intelligence and Data Science: Applications in Payment Fraud Detection, Leonardo Scholarship, Fundación BBVA. [link Red Leonardo]
+Artificial Intelligence and Data Science: Applications in Payment Fraud Detection, Leonardo Scholarship, Fundación BBVA. [link Red Leonardo](https://www.redleonardo.es/beneficiario/david-gomez-ullate-oteiza/)
 Sum: 40.000 EUR (2015-2016)
 ### Contract and Funding
 

@@ -12,16 +12,12 @@ customer: "Navantia"
 
 Mathematical optimization for a more efficient, safer and decarbonized maritime transport Fundación BBVA - Matemáticas 2021, 01/09/2022 – 30/06/2025 PI: David Gómez-Ullate (IE University), Team: 23 researchers, Sum: 150.000 EUR
 Optimización de rutas marítimas con información oceanográfica en tiempo real AEI Transición Ecológica y Digital (TED2021-129455B-I00), 01/12/2022 – 30/11/2024 PI: David Gómez-Ullate (IE University), Team: 12 researchers, Sum: 116.380 EUR
-### Publications
-
-J. Jiménez, D. Precioso, L. Bu, M.V. Redondo, R. Mison. R. Ballester and D. Gómez-Ullate, HADAD: Hexagonal A-Star with Differential Algorithm Designed for weather routing, Ocean Engineering 319 (2025) https://doi.org/10.1016/j.oceaneng.2024.120050
-D. Precioso, R. Milson, L. Bu, and D. Gómez-Ullate, Hybrid search method for Zermelo’s navigation problem, Computational and Applied Mathematics, 43(4) (2024) 250.
 ### Presentations
 
-Mathematical optimization for a more efficient, safer and decarbonized maritime transport, Royal Academy of Sciences, Madrid, Jul 7, 2023 [video]
+Mathematical optimization for a more efficient, safer and decarbonized maritime transport, Royal Academy of Sciences, Madrid, Jul 7, 2023 [video](https://www.youtube.com/watch?v=i6BFsdg-AVw&t=1709s)
 Smart Shipping: weather routing and WASP simulation, Session on Wind Propulsion at Sea Tech Week, Brest, France, Sep 26-30, 2022.
 
-Mathematical optimization of maritime shipping routes, IE-RSME Workshop on Applied Mathematics in Sustainability and Climate Change, IE Tower (Madrid) May 30, 2023 [link].
+Mathematical optimization of maritime shipping routes, IE-RSME Workshop on Applied Mathematics in Sustainability and Climate Change, IE Tower (Madrid) May 30, 2023 [link](https://ieconnects.ie.edu/iersmeworkshops/rsvp_boot?id=300088368).
 
 ### Technical Overview
 

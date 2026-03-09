@@ -22,7 +22,7 @@ Addressing this required the development of a dedicated annotation pipeline, the
 
 The project delivered a hierarchical classification system capable of organizing judgments and legal documents across multiple levels of legal categories, achieving accuracy rates above 90%. In addition, the implementation of semantic search capabilities improved information retrieval performance. Compared to the previous system, the new solution was 22 times more efficient, significantly reducing operational workload and increasing productivity and service responsiveness.
 
-Due to confidentiality agreements, the team could not write a publication in this project, but the results were explained in the specialized conference JURIX 2019 - IberLegal with a talk in the industry session.
+Due to confidentiality agreements, the team could not write a publication in this project, but the results were explained in the specialized conference [JURIX 2019 - IberLegal](https://jurix.oeg.fi.upm.es/iberlegal.html) with a [talk in the industry session](https://jurix.oeg.fi.upm.es/industryprogram.html).
 
 I was Principal Investigator of the project and responsible for delivery of results under the contract between UCA Datalab and Quantum Analytics.
 
