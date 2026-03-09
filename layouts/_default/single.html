@@ -9,6 +9,8 @@
   {{ end }}
 {{ end }}
 
+{{ $isProjectPage := and .IsPage (or (eq .Type "industry") (eq .Type "research")) }}
+
 <div class="mx-auto flex max-w-screen-xl">
   {{ partial "components/sidebar.html" (dict "context" . "no_sidebar" true) }}
   {{ partial "components/toc.html" . }}
@@ -65,6 +67,25 @@
             {{ partial "page_links_div.html" . }}
           </div>
         </div>
+
+        {{ if $isProjectPage }}
+          {{ $projectTag := "" }}
+          {{ with .Params.category }}{{ $projectTag = humanize . }}{{ end }}
+          {{ if or $projectTag .Params.customer }}
+          <div class="mx-auto -mt-8 mb-10 max-w-3xl rounded-lg border border-slate-200/80 px-5 py-4 dark:border-slate-700/80">
+            <dl class="grid grid-cols-1 gap-y-2 text-sm md:grid-cols-[140px_auto]">
+              {{ with $projectTag }}
+              <dt class="font-semibold text-slate-700 dark:text-slate-200">Tag</dt>
+              <dd class="text-slate-600 dark:text-slate-300">{{ . }}</dd>
+              {{ end }}
+              {{ with .Params.customer }}
+              <dt class="font-semibold text-slate-700 dark:text-slate-200">Customer</dt>
+              <dd class="text-slate-600 dark:text-slate-300">{{ . }}</dd>
+              {{ end }}
+            </dl>
+          </div>
+          {{ end }}
+        {{ end }}
 
 
 
@@ -154,6 +175,54 @@
         <div class="prose prose-slate lg:prose-xl dark:prose-invert mx-auto max-w-none">
           {{ .Content }}
         </div>
+
+        {{ if $isProjectPage }}
+          {{ $projectSlug := .File.ContentBaseName }}
+          {{ $projectRef := printf "%s/%s" .Type $projectSlug }}
+          {{ $relatedPublications := slice }}
+
+          {{ range where site.RegularPages "Type" "publication" }}
+            {{ $projects := .Params.projects }}
+            {{ if $projects }}
+              {{ $match := false }}
+              {{ if reflect.IsSlice $projects }}
+                {{ if in $projects $projectSlug }}{{ $match = true }}{{ end }}
+                {{ if in $projects $projectRef }}{{ $match = true }}{{ end }}
+              {{ else }}
+                {{ $projectValue := printf "%v" $projects }}
+                {{ if or (eq $projectValue $projectSlug) (eq $projectValue $projectRef) }}
+                  {{ $match = true }}
+                {{ end }}
+              {{ end }}
+              {{ if $match }}
+                {{ $relatedPublications = $relatedPublications | append . }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
+          {{ $relatedPublications = sort $relatedPublications "Date" "desc" }}
+          {{ if gt (len $relatedPublications) 0 }}
+            <section class="mx-auto mt-12 max-w-5xl">
+              <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Related Publications</h2>
+              <div class="mt-4 space-y-3">
+                {{ range $relatedPublications }}
+                  <article class="rounded-lg border border-slate-200/80 p-4 dark:border-slate-700/80">
+                    <a href="{{ .RelPermalink }}" class="text-lg font-semibold text-slate-900 hover:text-primary-600 dark:text-slate-100 dark:hover:text-primary-400">{{ .Title }}</a>
+                    <div class="mt-1 text-sm text-slate-600 dark:text-slate-300">
+                      {{ if .Date }}{{ .Date | time.Format "2006" }}{{ end }}
+                      {{ with .Params.publication }} · {{ . | markdownify | plainify }}{{ end }}
+                    </div>
+                    {{ with .Params.doi }}
+                      <div class="mt-1 text-sm">
+                        <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">doi: {{ . }}</a>
+                      </div>
+                    {{ end }}
+                  </article>
+                {{ end }}
+              </div>
+            </section>
+          {{ end }}
+        {{ end }}
 
         {{ partial "components/last-edited.html" . }}
 

@@ -6,8 +6,19 @@ description: Data-driven methods to infer appliance-level electricity use from s
 category: energy
 ---
 
-Non-Intrusive Load Monitoring (NILM) identifies the activity of individual appliances, such as fridges, washing machines, and dishwashers, from total household electricity demand measured by a smart meter. This avoids dedicated sensors per device and enables scalable energy analytics for demand response, feedback, and efficiency programs.
+This work addresses a fundamental but often overlooked modeling choice in NILM: how to define when an appliance is considered ON or OFF. Since real datasets usually provide power consumption but not appliance states, this requires introducing thresholding rules that transform a regression problem into a classification task. We show that different thresholding methods lead to substantially different learning problems and performance outcomes, even when using the same deep learning architectures. By systematically comparing thresholding strategies and proposing objective criteria based on signal reconstruction error, the paper highlights the importance of problem formulation in NILM. In addition, a multi-task learning approach is explored, showing that jointly learning appliance status and power consumption can improve performance for certain types of devices through transfer learning between regression and classification tasks. 
 
-This project examined a key modeling issue in NILM, how to define ON and OFF appliance states from continuous power signals. Different thresholding rules can change the learning problem and significantly alter model performance. We compared thresholding strategies systematically and proposed objective criteria based on reconstruction error.
+This was the first paper we wrote with Daniel Precioso when he joined UCA Datalab at University of Cádiz to start his industrial PhD. He was already interested in this topic because he had done an internship at Foqum analytics. We extended his work and addressed a relevant conceptual problem in how NILM problems are usually framed. The work was presented in a few conferences , among which:
 
-The work also explored multi-task learning to jointly estimate appliance state and power consumption. Results were presented at BIDAS 4 and IEEE PowerTech Madrid 2021 and led to publications in The Journal of Supercomputing (2023) and IEEE PowerTech proceedings.
+BIDAS 4 - Fourth Bilbao Data Science Workshop BCAM (Nov 7-10 2019)
+
+IEEE Powertech Madrid 2021, (Jun 28-Jul 2 2021)
+
+It also led to the publication of these papers:
+
+ Thresholding Methods in Non-Intrusive Load Monitoring. The Journal of Supercomputing 
+
+79 14039–14062, (2023)
+
+ Non-Intrusive Load Monitoring Using Multi-Output CNNs. 2021 IEEE Madrid PowerTech, Madrid, Spain, 2021, 
+
