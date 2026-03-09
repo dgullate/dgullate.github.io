@@ -22,4 +22,6 @@ abstract: When considering different allocations of the marketing budget of a fi
   systems, but later used also for regression, are a good choice for incorporating
   interaction terms into the model, since they can effectively exploit the sparse
   nature of typical datasets found in econometrics.
+projects:
+- marketing
 ---

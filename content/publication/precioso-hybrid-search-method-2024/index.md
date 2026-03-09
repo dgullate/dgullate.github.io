@@ -23,4 +23,6 @@ abstract: In this paper, we present a novel algorithm called the Hybrid Search a
   making it well-suited for real-world applications. We evaluate the performance of
   the Hybrid Search algorithm on synthetic vector fields and real ocean currents,
   demonstrating its effectiveness and performance.
+projects:
+- transport
 ---

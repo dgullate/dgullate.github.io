@@ -35,4 +35,6 @@ abstract: 'We estimated the association between the level of restriction in nine
   remaining collinearity between fields, and somewhat artificial quantification of
   qualitative restrictions, so the exact attribution of the effect to specific areas
   must be done with caution.'
+projects:
+- covid-19-impact-of-npis
 ---

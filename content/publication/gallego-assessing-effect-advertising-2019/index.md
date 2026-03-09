@@ -21,4 +21,6 @@ abstract: Abstract             We propose a robust implementation of the Nerlove
   updated with relevant data. This aspect of the model will be used to support the
   decision of the manager on the budget scheduling of the advertising firm across
   time and channels.
+projects:
+- marketing
 ---

@@ -34,4 +34,6 @@ abstract: We present HADAD (Hexagonal A-Star with Differential Algorithm Designe
   By integrating global search and local optimization, HADAD effectively balances
   computational efficiency with route optimality, offering a practical and adaptable
   solution for real-world weather routing applications.
+projects:
+- transport
 ---

@@ -31,4 +31,6 @@ abstract: In this work we introduce NeoCam, an open source hardware-software pla
   Models for motor activity and stress detection are new to the best of our knowledge.
   NeoCam has been tested on preterms in the NICU of the University Hospital Puerta
   del Mar (Cádiz, Spain), and we report the lessons learned from this trial.
+projects:
+- neocam
 ---

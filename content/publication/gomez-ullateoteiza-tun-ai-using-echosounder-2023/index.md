@@ -19,4 +19,6 @@ abstract: 36% of global tropical tuna catch relies on dFADs -- drifting fish agg
   uniquely accurate biomass predictions. The project represents a unique collaboration
   between researchers, the fishing industry, and the technology sector in favour of
   scientific research.
+projects:
+- tun-ai
 ---

@@ -33,4 +33,6 @@ abstract: 'The use of dFADs by tuna purse-seine fisheries is widespread across o
   with oceanographic and position-derived features, highlighting the importance of
   these features when using echo-sounder buoy data. Potential applications of this
   methodology, and future improvements, are discussed.'
+projects:
+- tun-ai
 ---

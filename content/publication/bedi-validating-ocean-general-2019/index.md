@@ -18,4 +18,6 @@ abstract: 'Drifting Fish Aggregating Devices (dFADs) are small drifting platform
   company, to test the predictions of surface current velocity provided by two of
   the main models: the NEMO model used by Copernicus Marine Environment Monitoring
   Service (CMEMS) and the HYCOM model used by the Global Ocean Forecast System (GOFS).'
+projects:
+- predicting-drifting-buoys
 ---
