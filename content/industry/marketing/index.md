@@ -8,19 +8,12 @@ customer: "Omnicom Media Group"
 ---
 
 ## Overview
-Machine learning for precision marketing 
+Machine learning for precision marketing.
 
-Contract Art. 83 between Omnicom Media Group S.A. and Univ. Complutense de Madrid 
+### Projects and Contracts
 
-PI: David Gómez-Ullate (UCM-ICMAT), 01/12/2016 - 30/11/2017, Sum: 27.600 EUR.
-
-AI on geodata applied to conversion and CTR prediction in precision marketing Contract Art. 83 between Omnicom Media Group S.A. and Univ. Complutense de Madrid PI: David Gómez-Ullate (UCM-ICMAT), 01/12/2017 - 30/09/2018, Sum: 20.400 EUR.
-
-Close Figure Viewer
-
-Previous Figure
-
-N
+- Contract Art. 83 between Omnicom Media Group S.A. and Univ. Complutense de Madrid. PI: David Gómez-Ullate (UCM-ICMAT), 01/12/2016 - 30/11/2017, Sum: 27.600 EUR.
+- AI on geodata applied to conversion and CTR prediction in precision marketing. Contract Art. 83 between Omnicom Media Group S.A. and Univ. Complutense de Madrid. PI: David Gómez-Ullate (UCM-ICMAT), 01/12/2017 - 30/09/2018, Sum: 20.400 EUR.
 
 One of the central problems in marketing and advertising is to answer the following question:
 
@@ -36,7 +29,6 @@ This work shows how modern statistical methods can turn complex business data in
 
 This project was an Art.83 collaboration between my group at Universidad Complutense and Omnicom Media Group. Besides providing an actionable model for the advertising company, it led to a couple of academic publications:
 
-[Assessing the effect of advertising expenditures upon sales:A Bayesian structural time series model](https://onlinelibrary.wiley.com/doi/10.1002/asmb.2460)
-
-[Bayesian Factorization Machines for Risk Management and Robust Decision Making](https://link.springer.com/chapter/10.1007/978-3-319-89824-7_9)
+- [Assessing the effect of advertising expenditures upon sales:A Bayesian structural time series model](https://onlinelibrary.wiley.com/doi/10.1002/asmb.2460)
+- [Bayesian Factorization Machines for Risk Management and Robust Decision Making](https://link.springer.com/chapter/10.1007/978-3-319-89824-7_9)
 

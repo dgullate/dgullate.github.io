@@ -21,17 +21,13 @@ Our study analyzed the effectiveness of non-pharmaceutical interventions (NPIs) 
 The results showed that increasing the overall intensity of measures by 34% was associated with a 22% reduction in transmission within one week. Interventions related to social distancing and indoor hospitality were found to be particularly effective, while measures affecting leisure, cultural activities, places of worship, religious celebrations, and indoor sports showed less clear effects—though these differences should be interpreted cautiously, as many measures were implemented simultaneously. The project also made all collected data publicly available to support transparency and future research, highlighting the critical role of mathematical modeling and data analysis in managing public health crises.
 
 My role in this project was mainly involved in coding and processing the NPIs into useful variables for the statistical model that matched the NPI intensity time series to incidence metrics. On a separate project, we made a predictive tool to assist hospitals in planning for extra beds in ICUs, leveraging what was known on disease dynamics and observed infected individuals.
+
 ### Media Coverage
 
-Interview in eldiario.es “To fight the pandemic, we need transparency and access to good data.” (17/04/20) [link](https://www.eldiario.es/sociedad/david-gomez-ullate-pandemia-necesitamos-transparencia_128_5871280.html)
-Interview for Real Sociedad Matemática Española (09/04/21) [link](https://rsme.es/david-gomez-ullate-no-se-puede-basar-en-el-voluntarismo-todo-el-trabajo-contra-el-coronavirus/)
-
-Las matemáticas frente a la Covid-19, Fundación Ramón Areces en colaboración con Real Sociedad Matemática Española [video](https://www.youtube.com/watch?v=ZZlDwg8cypw)
-
-M. Salomone “Spanish mathematicians look for a model to predict how the pandemic will evolve”, Fundación BBVA (07/04/20) [link](https://www.bbva.com/en/spanish-mathematicians-look-for-a-model-to-predict-how-the-pandemic-will-evolve/)
-
-“Big Data contra el coronavirus y ¿nuestra privacidad?” , Fallo de Sistema, Radio 3 (19/04/20) [link](https://www.rtve.es/play/audios/fallo-de-sistema/fallo-sistema-401-big-data-contra-coronavirus-nuestra-privacidad-19-04-20/5560290/)
-
-“Desarrollan un modelo predictivo de ocupación de camas en las UCI de los hospitales andaluces” Fundación Descubre, Junta de Andalucía [link](https://fundaciondescubre.es/noticias/desarrollan-un-modelo-predictivo-de-ocupacion-de-camas-en-las-uci-de-los-hospitales-andaluces/)
-
-Acción Matemática contra la COVID confirma que el incremento de las restricciones redujo la transmisión del virus en un 22% a la semana. CITIC-UDC (17/04/23) [link](https://citic.udc.es/accion-matematica-contra-la-covid-confirma-que-el-incremento-de-las-restricciones-redujo-la-transmision-del-virus-en-un-22-a-la-semana/)
+- Interview in eldiario.es “To fight the pandemic, we need transparency and access to good data.” (17/04/20) [link](https://www.eldiario.es/sociedad/david-gomez-ullate-pandemia-necesitamos-transparencia_128_5871280.html)
+- Interview for Real Sociedad Matemática Española (09/04/21) [link](https://rsme.es/david-gomez-ullate-no-se-puede-basar-en-el-voluntarismo-todo-el-trabajo-contra-el-coronavirus/)
+- Las matemáticas frente a la Covid-19, Fundación Ramón Areces en colaboración con Real Sociedad Matemática Española [video](https://www.youtube.com/watch?v=ZZlDwg8cypw)
+- M. Salomone “Spanish mathematicians look for a model to predict how the pandemic will evolve”, Fundación BBVA (07/04/20) [link](https://www.bbva.com/en/spanish-mathematicians-look-for-a-model-to-predict-how-the-pandemic-will-evolve/)
+- “Big Data contra el coronavirus y ¿nuestra privacidad?” , Fallo de Sistema, Radio 3 (19/04/20) [link](https://www.rtve.es/play/audios/fallo-de-sistema/fallo-sistema-401-big-data-contra-coronavirus-nuestra-privacidad-19-04-20/5560290/)
+- “Desarrollan un modelo predictivo de ocupación de camas en las UCI de los hospitales andaluces” Fundación Descubre, Junta de Andalucía [link](https://fundaciondescubre.es/noticias/desarrollan-un-modelo-predictivo-de-ocupacion-de-camas-en-las-uci-de-los-hospitales-andaluces/)
+- Acción Matemática contra la COVID confirma que el incremento de las restricciones redujo la transmisión del virus en un 22% a la semana. CITIC-UDC (17/04/23) [link](https://citic.udc.es/accion-matematica-contra-la-covid-confirma-que-el-incremento-de-las-restricciones-redujo-la-transmision-del-virus-en-un-22-a-la-semana/)

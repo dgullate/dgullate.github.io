@@ -15,7 +15,8 @@ The Tun-AI project develops an AI-driven pipeline to transform raw data from ech
 Beyond improving biomass estimation for fishery operations, Tun-AI opens new avenues for scientific research into tuna behaviour and ecology. Traditional ecological studies of highly migratory species like tuna are costly and geographically limited; by harnessing data from thousands of buoys over long time periods, the project offers a cost-effective way to observe patterns of tuna aggregation and movement on an ocean scale. This collaborative effort between industry (buoy manufacturers and fleets) and researchers demonstrates how AI can add value to existing maritime technologies and support more sustainable, data-informed fishery management.
 
 The project allowed Stalink to automate and serve predictions in real time with higher accuracy than the human predictions in use before the project. The AI model is currently in use by more than 1500 fishing vessels. My role in the project was principal investigator and responsible for the contract, which was executed by Komorebi AI, where I supervised a team of 4 data scientists who built, evaluated and deployed the model in production.
+
 ### Media Coverage
 
-Tun-AI: Using echosounder buoy technology to study tuna behaviour at sea, Research Features [Issue 149](https://researchfeatures.com/tun-ai-echosounder-buoy-technology-study-tuna-behaviour-sea/) (22/09/23)
+- Tun-AI: Using echosounder buoy technology to study tuna behaviour at sea, Research Features [Issue 149](https://researchfeatures.com/tun-ai-echosounder-buoy-technology-study-tuna-behaviour-sea/) (22/09/23)
 

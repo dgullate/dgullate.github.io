@@ -14,15 +14,11 @@ This work addresses a fundamental but often overlooked modeling choice in NILM: 
 
 This was the first paper we wrote with Daniel Precioso when he joined UCA Datalab at University of Cádiz to start his industrial PhD. He was already interested in this topic because he had done an internship at Foqum analytics. We extended his work and addressed a relevant conceptual problem in how NILM problems are usually framed. The work was presented in a few conferences , among which:
 
-[BIDAS 4 - Fourth Bilbao Data Science Workshop](https://www.bcamath.org/es/bidas-4-fourth-bilbao-data-science-workshop-0) BCAM (Nov 7-10 2019)
-
-[IEEE Powertech Madrid 2021](https://www.powertech2021.com/), (Jun 28-Jul 2 2021)
+- [BIDAS 4 - Fourth Bilbao Data Science Workshop](https://www.bcamath.org/es/bidas-4-fourth-bilbao-data-science-workshop-0), BCAM (Nov 7-10 2019).
+- [IEEE Powertech Madrid 2021](https://www.powertech2021.com/), (Jun 28-Jul 2 2021).
 
 It also led to the publication of these papers:
 
-[Thresholding Methods in Non-Intrusive Load Monitoring](https://link.springer.com/article/10.1007/s11227-023-05149-8). The Journal of Supercomputing 
-
-79 14039–14062, (2023)
-
-[Non-Intrusive Load Monitoring Using Multi-Output CNNs](https://ieeexplore.ieee.org/document/9494943). 2021 IEEE Madrid PowerTech, Madrid, Spain, 2021, 
+- [Thresholding Methods in Non-Intrusive Load Monitoring](https://link.springer.com/article/10.1007/s11227-023-05149-8). The Journal of Supercomputing 79 14039–14062 (2023).
+- [Non-Intrusive Load Monitoring Using Multi-Output CNNs](https://ieeexplore.ieee.org/document/9494943). 2021 IEEE Madrid PowerTech, Madrid, Spain (2021).
 

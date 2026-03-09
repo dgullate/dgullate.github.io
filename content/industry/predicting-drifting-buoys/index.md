@@ -17,6 +17,7 @@ We developed a Lagrangian numerical integration scheme which used the ocean curr
 As a side project, we used their data to validate predictions from these models, comparing the true trajectories of the buoys with those predicted by the Lagrangian model.  This is an example of a synergistic and positive by-product between industry and research. The largest publicly funded program to gather data from drifting buoys is the NOAA [Global Drifter Program](https://www.aoml.noaa.gov/global-drifter-program/), which contains around 1000 buoys from a collaboration between 19 countries. By way of contrast, we had access to a proprietary dataset of more than 20 years of operation for ca. 40.000 buoys in the three major oceans, providing daily (sometimes hourly) positions. Of course these buoys were deployed for fishing purposes, but the data they gathered can be used for many other scientific purposes, in this case, validation of Ocean General Circulation Models.
 
 My role in this project was Principal Investigator and responsible for the contract. It was a good opportunity to work with Karan Bedi, a visiting MSc student from IIT Roorkee (India), who visited UCA Datalab in Cádiz during that period.
+
 ### Projects and Contracts
 
-Prediction of drifting objects in the ocean Contract Art. 83 between Satlink SL and Universidad de Cádiz PI: David Gómez-Ullate (UCA), 01/04/2019 – 01/07/2019, Sum: 70.000 EUR.
+- Prediction of drifting objects in the ocean. Contract Art. 83 between Satlink SL and Universidad de Cádiz. PI: David Gómez-Ullate (UCA), 01/04/2019 – 01/07/2019, Sum: 70.000 EUR.

@@ -17,13 +17,14 @@ Technically, the system combines optimized deep learning models deployed on edge
 The project won the first regional prize (Europe) in the 2021 OpenCV AI Competition and the [second global prize](https://opencv.org/announcing-the-grand-prize-winners-of-opencv-ai-competition-2021/), out of more than 1400 submitted projects. It also led to a publication in the high reputation journal IEEE Journal of Biomedical and Health Informatics.
 
 The PI of this project was my colleague Lionel Cervera. My role was to be responsible for the development of the three  AI algorithms that were incorporated into the NeoCam.
+
 ### Media Coverage
 
-OpenCV Blog Episode 32 (04/11/21) Real-time tele-monitoring of preterm neonates with NeoCam - Interview with Satya Mallick, CEO of OpenCV. [link](https://www.youtube.com/watch?v=cQ-Q-4QGRCo)
-A UCA project wins first place in an international Artificial Intelligence competition, Diario de Cádiz (8/09/21) [link](https://www.diariodecadiz.es/noticias-provincia-cadiz/UCA-primer-puesto-competicion-internacional-Inteligencia-Artificial-video_0_1609040454.html)
+- OpenCV Blog Episode 32 (04/11/21) Real-time tele-monitoring of preterm neonates with NeoCam - Interview with Satya Mallick, CEO of OpenCV. [link](https://www.youtube.com/watch?v=cQ-Q-4QGRCo)
+- A UCA project wins first place in an international Artificial Intelligence competition, Diario de Cádiz (8/09/21) [link](https://www.diariodecadiz.es/noticias-provincia-cadiz/UCA-primer-puesto-competicion-internacional-Inteligencia-Artificial-video_0_1609040454.html)
+
 ### Videos
 
-Spot: https://www.youtube.com/watch?v=58KHGucW0dQ
-Motion detector: https://www.youtube.com/watch?v=CGLl9O9GtEg
-
-Breath rate detector: https://www.youtube.com/watch?v=ZsHf2NaaHW8
+- Spot: https://www.youtube.com/watch?v=58KHGucW0dQ
+- Motion detector: https://www.youtube.com/watch?v=CGLl9O9GtEg
+- Breath rate detector: https://www.youtube.com/watch?v=ZsHf2NaaHW8
