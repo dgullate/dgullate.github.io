@@ -7,6 +7,7 @@ category: insurance
 customer: "Vienna Insurance Group"
 ---
 
+## Overview
 Climate change is no longer a distant concern for insurers: it is already reshaping mortality patterns, life expectancy, and long-term risk. Rising temperatures, more frequent extremes, and uneven adaptation across populations pose fundamental challenges to how life and health insurance products are priced, managed, and regulated.
 
 This project, developed in collaboration between IE University and Vienna Insurance Group (VIG), translates cutting-edge climate and health research into tools that insurers can actually use. We study how temperature and other climate-related risk factors affect mortality across age groups, regions, and future climate scenarios, and we embed these effects directly into actuarial quantities such as death probabilities, life expectancy, and life tables.

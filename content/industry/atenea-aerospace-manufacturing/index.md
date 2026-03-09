@@ -1,4 +1,4 @@
-﻿---
+---
 title: ATENEA for Aerospace Manufacturing
 start_date: '2019-04-01'
 end_date: '2019-10-31'
@@ -7,6 +7,7 @@ category: manufacturing
 customer: "Airbus D&S"
 ---
 
+## Overview
 ATENEA: systems based in artificial intelligence to support manufacturing engineering Contract Art. 83 between AIRBUS D&S and Universidad de Cádiz (CDTI Interconnecta) PI: David Gómez-Ullate (UCA), 01/04/2019 – 31/10/2019, Sum: 90.000 EUR.
 
 Modern aerospace manufacturing demands extremely high quality standards, especially in composite components where defects can be costly and difficult to detect. Within the context of Industry 4.0, ATENEA was a research and innovation project funded by CDTI and developed in collaboration with Airbus, with the goal of bringing data science and artificial intelligence directly into the production and inspection of fan cowls for the Airbus A320/A330 Neo.

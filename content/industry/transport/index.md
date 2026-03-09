@@ -7,25 +7,23 @@ category: transport
 customer: "Navantia"
 ---
 
-Projects: 
+## Overview
+### Projects and Contracts
 
 Mathematical optimization for a more efficient, safer and decarbonized maritime transport Fundación BBVA - Matemáticas 2021, 01/09/2022 – 30/06/2025 PI: David Gómez-Ullate (IE University), Team: 23 researchers, Sum: 150.000 EUR
-
 Optimización de rutas marítimas con información oceanográfica en tiempo real AEI Transición Ecológica y Digital (TED2021-129455B-I00), 01/12/2022 – 30/11/2024 PI: David Gómez-Ullate (IE University), Team: 12 researchers, Sum: 116.380 EUR
-
-Publications:
+### Publications
 
 J. Jiménez, D. Precioso, L. Bu, M.V. Redondo, R. Mison. R. Ballester and D. Gómez-Ullate, HADAD: Hexagonal A-Star with Differential Algorithm Designed for weather routing, Ocean Engineering 319 (2025) https://doi.org/10.1016/j.oceaneng.2024.120050
-
 D. Precioso, R. Milson, L. Bu, and D. Gómez-Ullate, Hybrid search method for Zermelo’s navigation problem, Computational and Applied Mathematics, 43(4) (2024) 250.
-
-Presentations:
+### Presentations
 
 Mathematical optimization for a more efficient, safer and decarbonized maritime transport, Royal Academy of Sciences, Madrid, Jul 7, 2023 [video]
-
 Smart Shipping: weather routing and WASP simulation, Session on Wind Propulsion at Sea Tech Week, Brest, France, Sep 26-30, 2022.
 
 Mathematical optimization of maritime shipping routes, IE-RSME Workshop on Applied Mathematics in Sustainability and Climate Change, IE Tower (Madrid) May 30, 2023 [link].
+
+### Technical Overview
 
 Maritime transport accounts for more than 80% of global trade, yet it faces growing regulatory and environmental pressure to reduce fuel consumption and greenhouse gas emissions. At the same time, the increasing availability of high‑resolution oceanographic and meteorological data has opened new opportunities for smarter, data‑driven navigation.
 

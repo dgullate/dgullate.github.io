@@ -7,6 +7,7 @@ category: legaltech
 customer: "Foqum Analytics / Lefebvre"
 ---
 
+## Overview
 Natural Language Processing with Deep Learning for retrieval of legal documents
 
 This project was developed in the early days of Deep Learning NLP, before the transformer architecture was built into commercial products.

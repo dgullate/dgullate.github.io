@@ -7,6 +7,7 @@ category: health
 customer: "Instituto de Salud Carlos III"
 ---
 
+## Overview
 The COVID-19 pandemics was a singular event where scientific activity proved to be instrumental in fighting against the disease and better decision making. Scientists worked round the clock from their homes during lockdown to establish networks, gather and process data, elaborate models and draft reports to help decision makers.
 
 In this context, the main mathematical spanish society CEMAT (Comité Español de Matemáticas) established a Committee of experts called “Acción Matemática contra el Coronavirus” from the 4 main societies (SEMA, RSME, SCM and SEIO) whose role was to elaborate a mathematical response to the challenges posed by the pandemics.
@@ -20,11 +21,9 @@ Our study analyzed the effectiveness of non-pharmaceutical interventions (NPIs) 
 The results showed that increasing the overall intensity of measures by 34% was associated with a 22% reduction in transmission within one week. Interventions related to social distancing and indoor hospitality were found to be particularly effective, while measures affecting leisure, cultural activities, places of worship, religious celebrations, and indoor sports showed less clear effects—though these differences should be interpreted cautiously, as many measures were implemented simultaneously. The project also made all collected data publicly available to support transparency and future research, highlighting the critical role of mathematical modeling and data analysis in managing public health crises.
 
 My role in this project was mainly involved in coding and processing the NPIs into useful variables for the statistical model that matched the NPI intensity time series to incidence metrics. On a separate project, we made a predictive tool to assist hospitals in planning for extra beds in ICUs, leveraging what was known on disease dynamics and observed infected individuals.
-
-In the media: 
+### Media Coverage
 
 Interview in eldiario.es “To fight the pandemic, we need transparency and access to good data.” (17/04/20) [link]
-
 Interview for Real Sociedad Matemática Española (09/04/21) [link]
 
 Las matemáticas frente a la Covid-19, Fundación Ramón Areces en colaboración con Real Sociedad Matemática Española  [video]
@@ -36,6 +35,6 @@ M. Salomone “Spanish mathematicians look for a model to predict how the pandem
 “Desarrollan un modelo predictivo de ocupación de camas en las UCI de los hospitales andaluces” Fundación Descubre, Junta de Andalucía [link]]
 
 Acción Matemática contra la COVID confirma que el incremento de las restricciones redujo la transmisión del virus en un 22% a la semana. CITIC-UDC (17/04/23)  [link]
+### Publications
 
-Publications: Effectiveness of non-pharmaceutical interventions in nine fields of activity to decrease SARS-CoV-2 transmission (Spain, September 2020–May 2021). Front. Public Health 11 1061331. doi: 10.3389/fpubh.2023.1061331
-
+Effectiveness of non-pharmaceutical interventions in nine fields of activity to decrease SARS-CoV-2 transmission (Spain, September 2020–May 2021). Front. Public Health 11 1061331. doi: 10.3389/fpubh.2023.1061331

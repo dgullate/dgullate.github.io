@@ -7,6 +7,7 @@ category: marketing
 customer: "Omnicom Media Group"
 ---
 
+## Overview
 Machine learning for precision marketing 
 
 Contract Art. 83 between Omnicom Media Group S.A. and Univ. Complutense de Madrid 
