@@ -7,20 +7,20 @@
 
 main:
   - name: Bio
-    url: /
+    pageRef: /
     weight: 10
   - name: Academic Research
-    url: /research
+    pageRef: /research
     weight: 11
   - name: Industrial Projects
-    url: /industry
+    pageRef: /industry
     weight: 12
   - name: Leadership
-    url: /leadership
+    pageRef: /leadership
     weight: 13
   - name: Talks
-    url: /event
+    pageRef: /event
     weight: 14
   - name: Publications
-    url: /publication
+    pageRef: /publication
     weight: 50

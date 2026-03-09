@@ -12,6 +12,6 @@ sections:
   - block: resume-projects
   # Template in _vendor\github.com\HugoBlox\all-access\blox-all-access\blox\resume-projects.html
     content:
-      title: Industrial Projects
+      text: ''
       # The items list is generated automatically from content/industry subpages.
 ---

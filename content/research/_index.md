@@ -12,6 +12,6 @@ sections:
   - block: resume-research
   # Template in _vendor\github.com\HugoBlox\all-access\blox-all-access\blox\resume-research.html
     content:
-      title: Academic Research
+      text: ''
       # The items list is generated automatically from content/research subpages.
 ---
