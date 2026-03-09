@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<div class="max-w-prose mx-auto flex justify-center">
+  <article class="prose prose-slate lg:prose-xl dark:prose-invert">
+    {{ if ne .Params.show_title false }}
+    <h1 class="lg:text-6xl">{{ .Title }}</h1>
+    {{ end }}
+    {{ .Content }}
+  </article>
+</div>
+
+{{ $view := .Params.view | default "card" }}
+{{ $block := . }}
+
+<div class="flex flex-col items-center">
+
+  {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view) }}
+
+  {{ $listItems := where .Pages "Kind" "page" }}
+  {{ $paginator := .Paginate ($listItems.ByDate.Reverse) }}
+  <span class="list-debug" style="display:none">kind=page items={{ len $listItems }} paged={{ len $paginator.Pages }}</span>
+  {{ range $index, $item := $paginator.Pages }}
+  {{ partial "functions/render_view" (dict "page" . "item" . "view" $view "index" $index) }}
+  {{end}}
+
+  {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" $view) }}
+
+  {{ partial "components/paginator" . }}
+
+</div>
+
+{{ end }}

@@ -4,6 +4,7 @@ cms_exclude: true
 
 # View.
 view: list
+show_title: false
 
 # Optional header image (relative to `static/media/` folder).
 banner:
