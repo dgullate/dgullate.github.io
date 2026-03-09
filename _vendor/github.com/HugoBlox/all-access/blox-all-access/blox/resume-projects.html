@@ -216,7 +216,7 @@ category: text
             <div class="project-list">
               {{ range $idx, $key := $items }}
               <article class="project-row group">
-                <a href="{{.url}}" class="project-media" target="_blank" rel="noopener">
+                <a href="{{.url}}" class="project-media">
                   <div class="project-image-zoom">
                     {{- $img := .imageResource -}}
                     {{ if not $img }}
@@ -239,7 +239,7 @@ category: text
                 <div class="project-content">
                   <div class="project-header">
                     <h3 class="project-row-title">
-                      <a href="{{.url}}" class="project-row-title-link" target="_blank" rel="noopener">{{.title}}</a>
+                      <a href="{{.url}}" class="project-row-title-link">{{.title}}</a>
                     </h3>
 
                   {{ with .category }}

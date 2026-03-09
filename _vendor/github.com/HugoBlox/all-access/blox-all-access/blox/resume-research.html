@@ -91,7 +91,7 @@ description: text
                 </div>
                 <div class="flex-1 min-w-0">
                   <h2 class="text-lg font-semibold text-neutral-800 dark:text-neutral-100">
-                    <a href="{{.url}}" target="_blank" rel="noopener" class="hover:text-primary-600 dark:hover:text-primary-400">{{.title}}</a>
+                    <a href="{{.url}}" class="hover:text-primary-600 dark:hover:text-primary-400">{{.title}}</a>
                   </h2>
                   {{ if and .start_date .end_date }}
                     {{ $startYear := (time .start_date).Year }}
