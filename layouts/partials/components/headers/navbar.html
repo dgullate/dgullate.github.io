@@ -1,3 +1,22 @@
+<style>
+  #nav-menu .nav-link.active,
+  #nav-menu .nav-dropdown-link.active {
+    font-weight: 700;
+    color: rgb(var(--color-primary-700));
+  }
+
+  .dark #nav-menu .nav-link.active,
+  .dark #nav-menu .nav-dropdown-link.active {
+    color: rgb(var(--color-primary-300));
+  }
+
+  #nav-menu:hover .nav-link.active:not(:hover),
+  #nav-menu:hover .nav-dropdown-link.active:not(:hover) {
+    font-weight: 600;
+    color: inherit;
+  }
+</style>
+
 <header id="site-header" class="header">
   <nav class="navbar px-3 flex justify-left">
     <div class="order-0 h-100">
@@ -63,7 +82,7 @@
               class="nav-link {{ range .Children }}
                 {{ $childURL := .URL | absLangURL }}
                 {{ $active := eq $childURL $pageURL }}
-                {{ if $active }}active font-bold text-black/90 dark:text-white{{ end }}
+                {{ if $active }}active{{ end }}
               {{ end }} inline-flex items-center">
               {{ .Name }}
               <svg class="h-4 w-4 fill-current inline-block" viewBox="0 0 20 20">
@@ -87,7 +106,7 @@
           {{- end -}}
           <li class="nav-dropdown-item">
             <a
-              class="nav-dropdown-link {{ if $active }}active font-bold text-black/90 dark:text-white{{- end -}}"
+              class="nav-dropdown-link {{ if $active }}active{{- end -}}"
               {{ if findRE `^http` .URL }}
               target="_blank" rel="noopener"
               {{ end }}
@@ -110,7 +129,7 @@
       {{- end -}}
       <li class="nav-item">
         <a
-          class="nav-link {{ if $active }}active font-bold text-black/90 dark:text-white{{- end -}}"
+          class="nav-link {{ if $active }}active{{- end -}}"
           {{ if findRE `^http` .URL }}
           target="_blank" rel="noopener"
           {{ end }}
