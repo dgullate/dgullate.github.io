@@ -117,17 +117,6 @@
     text-underline-offset: 3px;
   }
 
-  .project-category-tag {
-    padding: 0.33rem 0.72rem;
-    border-radius: 9999px;
-    font-size: 0.72rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.045em;
-    box-shadow: 0 2px 8px rgba(2, 6, 23, 0.24);
-    white-space: nowrap;
-  }
-
   .project-description {
     margin: 0;
     color: rgb(71, 85, 105);
@@ -137,26 +126,9 @@
   .dark .project-description {
     color: rgb(203, 213, 225);
   }
-
-  .category-energy { background-color: #f59e0b; color: white; }
-  .category-maritime { background-color: #3b82f6; color: white; }
-  .category-marketing { background-color: #ec4899; color: white; }
-  .category-health { background-color: #10b981; color: white; }
-  .category-transport { background-color: #8b5cf6; color: white; }
-  .category-manufacturing { background-color: #f97316; color: white; }
-  .category-insurance { background-color: #0ea5e9; color: white; }
-  .category-fintech { background-color: #14b8a6; color: white; }
-  .category-legaltech { background-color: #6366f1; color: white; }
-  .category-talk { background-color: #2563eb; color: white; }
-  .category-seminar { background-color: #0f766e; color: white; }
-  .category-workshop { background-color: #4f46e5; color: white; }
-  .category-conference { background-color: #7c3aed; color: white; }
-  .category-interview { background-color: #db2777; color: white; }
-  .category-media { background-color: #ea580c; color: white; }
-  .category-research { background-color: #0891b2; color: white; }
-  .category-outreach { background-color: #4338ca; color: white; }
-  .category-default { background-color: #6b7280; color: white; }
 </style>
+
+{{ partial "components/project-category-tag-styles.html" . }}
 
 <div class="flex flex-col items-center">
   <div class="flex-auto">
@@ -169,44 +141,9 @@
                 {{ range $paginator.Pages }}
                 {{ $event := . }}
                 {{ $description := $event.Params.summary | default $event.Params.abstract | default $event.Params.description }}
-                {{ $category := $event.Params.category }}
-
-                {{ if not $category }}
-                  {{ with $event.Params.projects }}
-                    {{ $projectRef := printf "%v" (index . 0) }}
-                    {{ $projectSlug := replaceRE "^.*/" "" $projectRef }}
-                    {{ $projectPage := or ($event.Site.GetPage (printf "/industry/%s" $projectSlug)) ($event.Site.GetPage (printf "/research/%s" $projectSlug)) }}
-                    {{ with $projectPage }}
-                      {{ with .Params.category }}
-                        {{ $category = . }}
-                      {{ else }}
-                        {{ $category = .CurrentSection.Title | default (humanize .Type) }}
-                      {{ end }}
-                    {{ end }}
-                  {{ end }}
-                {{ end }}
-
-                {{ if not $category }}
-                  {{ if in $event.Params.tags "media" }}
-                    {{ $category = "Media" }}
-                  {{ else if in $event.Params.tags "interview" }}
-                    {{ $category = "Interview" }}
-                  {{ else if in $event.Params.tags "workshop" }}
-                    {{ $category = "Workshop" }}
-                  {{ else if in $event.Params.tags "seminar" }}
-                    {{ $category = "Seminar" }}
-                  {{ else if in $event.Params.tags "conference" }}
-                    {{ $category = "Conference" }}
-                  {{ else if in $event.Params.tags "talk" }}
-                    {{ $category = "Talk" }}
-                  {{ else if gt (len $event.Params.tags) 0 }}
-                    {{ $category = title (index $event.Params.tags 0) }}
-                  {{ else }}
-                    {{ $category = "Outreach" }}
-                  {{ end }}
-                {{ end }}
-
-                {{ $categoryClass := print "category-" (lower (replace $category " " "-")) }}
+                {{ $categoryMeta := partial "functions/outreach-category-meta.html" (dict "event" $event) }}
+                {{ $categoryClass := index $categoryMeta "class" }}
+                {{ $categoryLabel := index $categoryMeta "label" }}
                 <article class="project-row group">
                   <a href="{{ $event.RelPermalink }}" class="project-media">
                     <div class="project-image-zoom">
@@ -224,7 +161,6 @@
                       <h3 class="project-row-title">
                         <a href="{{ $event.RelPermalink }}" class="project-row-title-link">{{ $event.Title }}</a>
                       </h3>
-                      {{ $categoryLabel := title (replace (replace $category "-" " ") "_" " ") }}
                       <span class="project-category-tag category-default {{ $categoryClass }}">{{ $categoryLabel }}</span>
                     </div>
 

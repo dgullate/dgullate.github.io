@@ -1,0 +1,54 @@
+{{- $event := .event -}}
+{{- $category := $event.Params.category -}}
+
+{{- if not $category -}}
+  {{- with $event.Params.projects -}}
+    {{- $projectRef := "" -}}
+    {{- if reflect.IsSlice . -}}
+      {{- if gt (len .) 0 -}}
+        {{- $projectRef = printf "%v" (index . 0) -}}
+      {{- end -}}
+    {{- else -}}
+      {{- $projectRef = printf "%v" . -}}
+    {{- end -}}
+
+    {{- if $projectRef -}}
+      {{- $projectSlug := replaceRE "^.*/" "" $projectRef -}}
+      {{- $projectPage := or ($event.Site.GetPage (printf "/industry/%s" $projectSlug)) ($event.Site.GetPage (printf "/research/%s" $projectSlug)) -}}
+      {{- with $projectPage -}}
+        {{- with .Params.category -}}
+          {{- $category = . -}}
+        {{- else -}}
+          {{- $category = .CurrentSection.Title | default (humanize .Type) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $category -}}
+  {{- $tags := $event.Params.tags | default (slice) -}}
+  {{- if in $tags "media" -}}
+    {{- $category = "media" -}}
+  {{- else if in $tags "interview" -}}
+    {{- $category = "interview" -}}
+  {{- else if in $tags "workshop" -}}
+    {{- $category = "workshop" -}}
+  {{- else if in $tags "seminar" -}}
+    {{- $category = "seminar" -}}
+  {{- else if in $tags "conference" -}}
+    {{- $category = "conference" -}}
+  {{- else if in $tags "talk" -}}
+    {{- $category = "talk" -}}
+  {{- else if gt (len $tags) 0 -}}
+    {{- $category = index $tags 0 -}}
+  {{- else -}}
+    {{- $category = "outreach" -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $categoryValue := printf "%v" $category -}}
+{{- $categoryClass := print "category-" (lower (replace (replace $categoryValue "_" "-") " " "-")) -}}
+{{- $categoryLabel := title (replace (replace (replace $categoryValue "-" " ") "_" " ") "/" " ") -}}
+
+{{- return (dict "value" $categoryValue "class" $categoryClass "label" $categoryLabel) -}}
