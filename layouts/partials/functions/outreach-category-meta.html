@@ -19,7 +19,22 @@
         {{- with .Params.category -}}
           {{- $category = . -}}
         {{- else -}}
-          {{- $category = .CurrentSection.Title | default (humanize .Type) -}}
+          {{- if eq .Type "research" -}}
+            {{- $projectTitle := lower (printf "%v" .Title) -}}
+            {{- if or (findRE "machine learning|artificial intelligence|data science|neural|deep learning" $projectTitle) (findRE "machine-learning|ai" $projectSlug) -}}
+              {{- $category = "machine learning" -}}
+            {{- else if or (findRE "financial|finance" $projectTitle) (findRE "financial" $projectSlug) -}}
+              {{- $category = "financial mathematics" -}}
+            {{- else if or (findRE "quantum|many-body|lie groups|mathematical physics|chaotic|dynamical|infotaxis" $projectTitle) (findRE "quantum|many-body|lie-groups|mathematical-physics|chaotic|dynamical|infotaxis" $projectSlug) -}}
+              {{- $category = "mathematical physics" -}}
+            {{- else -}}
+              {{- $category = "mathematics" -}}
+            {{- end -}}
+          {{- else if eq .Type "industry" -}}
+            {{- $category = "industry" -}}
+          {{- else -}}
+            {{- $category = humanize .Type -}}
+          {{- end -}}
         {{- end -}}
       {{- end -}}
     {{- end -}}
@@ -48,6 +63,9 @@
 {{- end -}}
 
 {{- $categoryValue := printf "%v" $category -}}
+{{- if eq (lower $categoryValue) "academic research" -}}
+  {{- $categoryValue = "mathematics" -}}
+{{- end -}}
 {{- $categoryClass := print "category-" (lower (replace (replace $categoryValue "_" "-") " " "-")) -}}
 {{- $categoryLabel := title (replace (replace (replace $categoryValue "-" " ") "_" " ") "/" " ") -}}
 
