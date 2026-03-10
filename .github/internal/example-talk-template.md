@@ -1,3 +1,5 @@
+<!-- Internal reference template for outreach/event pages. This file is outside content/, so it is not published by Hugo. -->
+
 ---
 title: Example Talk
 

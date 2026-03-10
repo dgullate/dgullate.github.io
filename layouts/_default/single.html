@@ -209,6 +209,7 @@
           {{ $projectSlug := .File.ContentBaseName }}
           {{ $projectRef := printf "%s/%s" .Type $projectSlug }}
           {{ $relatedPublications := slice }}
+          {{ $relatedOutreach := slice }}
 
           {{ range where site.RegularPages "Type" "publication" }}
             {{ $projects := .Params.projects }}
@@ -229,7 +230,27 @@
             {{ end }}
           {{ end }}
 
+          {{ range where site.RegularPages "Type" "event" }}
+            {{ $projects := .Params.projects }}
+            {{ if $projects }}
+              {{ $match := false }}
+              {{ if reflect.IsSlice $projects }}
+                {{ if in $projects $projectSlug }}{{ $match = true }}{{ end }}
+                {{ if in $projects $projectRef }}{{ $match = true }}{{ end }}
+              {{ else }}
+                {{ $projectValue := printf "%v" $projects }}
+                {{ if or (eq $projectValue $projectSlug) (eq $projectValue $projectRef) }}
+                  {{ $match = true }}
+                {{ end }}
+              {{ end }}
+              {{ if $match }}
+                {{ $relatedOutreach = $relatedOutreach | append . }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
           {{ $relatedPublications = sort $relatedPublications "Date" "desc" }}
+          {{ $relatedOutreach = sort $relatedOutreach "Date" "desc" }}
           {{ if gt (len $relatedPublications) 0 }}
             <section class="mx-auto mt-12 max-w-5xl">
               <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Related Publications</h2>
@@ -244,6 +265,28 @@
                     {{ with .Params.doi }}
                       <div class="mt-1 text-sm">
                         <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">doi: {{ . }}</a>
+                      </div>
+                    {{ end }}
+                  </article>
+                {{ end }}
+              </div>
+            </section>
+          {{ end }}
+
+          {{ if gt (len $relatedOutreach) 0 }}
+            <section class="mx-auto mt-12 max-w-5xl">
+              <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Related Outreach</h2>
+              <div class="mt-4 space-y-3">
+                {{ range $relatedOutreach }}
+                  <article class="rounded-lg border border-slate-200/80 p-4 dark:border-slate-700/80">
+                    <a href="{{ .RelPermalink }}" class="text-lg font-semibold text-slate-900 hover:text-primary-600 dark:text-slate-100 dark:hover:text-primary-400">{{ .Title }}</a>
+                    <div class="mt-1 text-sm text-slate-600 dark:text-slate-300">
+                      {{ if .Date }}{{ .Date | time.Format "2006-01-02" }}{{ end }}
+                      {{ with .Params.event }} · {{ . | markdownify | plainify }}{{ end }}
+                    </div>
+                    {{ with .Params.event_url }}
+                      <div class="mt-1 text-sm">
+                        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">Event link</a>
                       </div>
                     {{ end }}
                   </article>
