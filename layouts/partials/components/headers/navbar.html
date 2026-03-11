@@ -39,7 +39,19 @@
   }
   {{ end }}
 
-  /* Post pages: keep featured images visually smaller than body content width. */
+  /* Single entry pages: keep featured images visually smaller than body content width. */
+  .page-body .entry-featured-image-wrapper {
+    text-align: center;
+  }
+
+  .page-body .entry-featured-image {
+    width: min(100%, 42rem);
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Post pages use a slightly tighter cap. */
   .page-body .post-featured-image-wrapper {
     text-align: center;
   }

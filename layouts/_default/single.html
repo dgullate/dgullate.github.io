@@ -12,6 +12,7 @@
 {{ $isProjectPage := and .IsPage (or (eq .Type "industry") (eq .Type "research")) }}
 {{ $isWideSinglePage := and .IsPage (or (eq .Type "industry") (eq .Type "research") (eq .Type "event") (eq .Type "post")) }}
 {{ $isPostPage := and .IsPage (eq .Type "post") }}
+{{ $isEntryFeaturedConstrained := $isWideSinglePage }}
 
 <div class="mx-auto flex {{ if $isWideSinglePage }}max-w-screen-2xl{{ else }}max-w-screen-xl{{ end }}">
   {{ if not $isWideSinglePage }}
@@ -153,9 +154,9 @@
         {{end}}
         {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
         {{/* Featured image */}}
-        <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16 mx-auto {{ if $isPostPage }}post-featured-image-wrapper{{ end }}">
+        <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16 mx-auto {{ if $isEntryFeaturedConstrained }}entry-featured-image-wrapper{{ end }} {{ if $isPostPage }}post-featured-image-wrapper{{ end }}">
           <div style="position: relative">
-            <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ with $.Params.image.alt_text }}{{.}}{{ end }}" class="featured-image {{ if $isPostPage }}post-featured-image{{ end }}">
+            <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ with $.Params.image.alt_text }}{{.}}{{ end }}" class="featured-image {{ if $isEntryFeaturedConstrained }}entry-featured-image{{ end }} {{ if $isPostPage }}post-featured-image{{ end }}">
             {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
           </div>
         </div>
