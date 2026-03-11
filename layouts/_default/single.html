@@ -11,11 +11,13 @@
 
 {{ $isProjectPage := and .IsPage (or (eq .Type "industry") (eq .Type "research")) }}
 
-<div class="mx-auto flex max-w-screen-xl">
+<div class="mx-auto flex {{ if $isProjectPage }}max-w-7xl{{ else }}max-w-screen-xl{{ end }}">
+  {{ if not $isProjectPage }}
   {{ partial "components/sidebar.html" (dict "context" . "no_sidebar" true) }}
   {{ partial "components/toc.html" . }}
+  {{ end }}
   <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-    <main class="w-full min-w-0 max-w-7xl px-6 pt-4 md:px-12">
+    <main class="w-full min-w-0 max-w-7xl px-6 pt-4 md:px-8">
       
       {{ if .Params.show_breadcrumb }}
       <div class="mb-4">
@@ -23,7 +25,7 @@
       </div>
       {{ end }}
 
-      <div class="mx-auto max-w-5xl">
+      <div class="mx-auto max-w-7xl">
         <h1 class="mt-2 text-4xl font-bold tracking-tight text-center text-slate-900 dark:text-slate-100">
           {{- .Title -}}
         </h1>
@@ -151,7 +153,7 @@
 
         {{/* EVENT / PUBLICATION METADATA */}}
         {{ if .Params.abstract | or (eq .Type "publication") | or (eq .Type "event") }}
-        <div class="max-w-prose mx-auto grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
           {{ if .Params.abstract }}
             <div class="font-bold text-2xl">{{ i18n "abstract" }}</div>
             <div>{{ .Params.abstract | markdownify }}</div>

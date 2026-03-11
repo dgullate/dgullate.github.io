@@ -3,7 +3,7 @@
 {{ $hidePageTitle := eq .Params.show_title false }}
 
 {{ if not $hidePageTitle }}
-<div class="max-w-prose mx-auto flex justify-center">
+<div class="max-w-5xl mx-auto flex justify-center">
   <article class="prose prose-slate lg:prose-xl dark:prose-invert">
     {{ if ne .Params.show_title false }}
     <h1 class="lg:text-6xl">{{ .Title }}</h1>
@@ -135,7 +135,7 @@
     <div class="sm:px-8">
       <div class="mx-auto w-full max-w-7xl lg:px-8">
         <div class="relative px-4 sm:px-8 lg:px-12">
-          <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="mx-auto max-w-2xl lg:max-w-6xl">
             <div>
               <div class="project-list">
                 {{ range $paginator.Pages }}
