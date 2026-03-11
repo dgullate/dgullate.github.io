@@ -1,4 +1,56 @@
 <style>
+  :root {
+    --site-content-max-width: {{ site.Params.layout.content.max_width | default "112rem" }};
+    --site-content-gutter-mobile: {{ site.Params.layout.content.gutter_mobile | default "1.25rem" }};
+    --site-content-gutter-desktop: {{ site.Params.layout.content.gutter_desktop | default "2rem" }};
+  }
+
+  /* Keep content width consistent wherever Tailwind max-width utilities are used. */
+  .page-body [class*="max-w-"] {
+    max-width: min(var(--site-content-max-width), calc(100vw - (2 * var(--site-content-gutter-mobile)))) !important;
+  }
+
+  /* Tailwind prose defaults to ~65ch, which causes narrow text blocks on many pages. */
+  .page-body .prose {
+    max-width: none !important;
+  }
+
+  .page-body main {
+    padding-left: var(--site-content-gutter-mobile) !important;
+    padding-right: var(--site-content-gutter-mobile) !important;
+  }
+
+  @media (min-width: 768px) {
+    .page-body [class*="max-w-"] {
+      max-width: min(var(--site-content-max-width), calc(100vw - (2 * var(--site-content-gutter-desktop)))) !important;
+    }
+
+    .page-body main {
+      padding-left: var(--site-content-gutter-desktop) !important;
+      padding-right: var(--site-content-gutter-desktop) !important;
+    }
+  }
+
+  {{ if not (site.Params.layout.content.show_side_columns | default false) }}
+  /* Optional global switch: keep a single content column across all pages. */
+  .page-body .hb-sidebar-container,
+  .page-body .hb-toc {
+    display: none !important;
+  }
+  {{ end }}
+
+  /* Post pages: keep featured images visually smaller than body content width. */
+  .page-body .post-featured-image-wrapper {
+    text-align: center;
+  }
+
+  .page-body .post-featured-image {
+    width: min(100%, 36rem);
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #nav-menu .nav-link.active,
   #nav-menu .nav-dropdown-link.active {
     font-weight: 700;

@@ -58,3 +58,11 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+# Global content layout controls
+layout:
+  content:
+    max_width: '90rem'
+    gutter_mobile: '1.25rem'
+    gutter_desktop: '2rem'
+    show_side_columns: false

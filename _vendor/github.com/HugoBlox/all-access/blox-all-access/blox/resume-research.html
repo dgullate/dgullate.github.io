@@ -45,7 +45,7 @@ description: text
 {{ end }}
 
 {{ if $block.content.title }}
-<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+<div class="flex flex-col items-center max-w-6xl mx-auto gap-3 justify-center">
 
   <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
     {{ $block.content.title | emojify | $page.RenderString }}
@@ -74,7 +74,7 @@ description: text
   <div class="sm:px-8">
     <div class="mx-auto w-full max-w-7xl lg:px-8">
       <div class="relative px-4 sm:px-8 lg:px-12">
-        <div class="mx-auto max-w-4xl">
+        <div class="mx-auto max-w-5xl">
           <div>
             <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6" role="list">
               {{ range $idx, $key := $items }}

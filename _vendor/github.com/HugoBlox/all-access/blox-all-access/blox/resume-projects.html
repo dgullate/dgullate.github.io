@@ -46,7 +46,7 @@ category: text
 {{ end }}
 
 {{ if $block.content.title }}
-<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+<div class="flex flex-col items-center max-w-6xl mx-auto gap-3 justify-center">
 
   <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
     {{ $block.content.title | emojify | $page.RenderString }}
@@ -211,7 +211,7 @@ category: text
   <div class="sm:px-8">
     <div class="mx-auto w-full max-w-7xl lg:px-8">
       <div class="relative px-4 sm:px-8 lg:px-12">
-        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+        <div class="mx-auto max-w-3xl lg:max-w-6xl">
           <div>
             <div class="project-list">
               {{ range $idx, $key := $items }}

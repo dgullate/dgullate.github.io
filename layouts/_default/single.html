@@ -10,14 +10,16 @@
 {{ end }}
 
 {{ $isProjectPage := and .IsPage (or (eq .Type "industry") (eq .Type "research")) }}
+{{ $isWideSinglePage := and .IsPage (or (eq .Type "industry") (eq .Type "research") (eq .Type "event") (eq .Type "post")) }}
+{{ $isPostPage := and .IsPage (eq .Type "post") }}
 
-<div class="mx-auto flex {{ if $isProjectPage }}max-w-7xl{{ else }}max-w-screen-xl{{ end }}">
-  {{ if not $isProjectPage }}
+<div class="mx-auto flex {{ if $isWideSinglePage }}max-w-screen-2xl{{ else }}max-w-screen-xl{{ end }}">
+  {{ if not $isWideSinglePage }}
   {{ partial "components/sidebar.html" (dict "context" . "no_sidebar" true) }}
   {{ partial "components/toc.html" . }}
   {{ end }}
   <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-    <main class="w-full min-w-0 max-w-7xl px-6 pt-4 md:px-8">
+    <main class="w-full min-w-0 {{ if $isWideSinglePage }}max-w-screen-2xl{{ else }}max-w-7xl{{ end }} px-6 pt-4 md:px-8">
       
       {{ if .Params.show_breadcrumb }}
       <div class="mb-4">
@@ -25,7 +27,7 @@
       </div>
       {{ end }}
 
-      <div class="mx-auto max-w-7xl">
+      <div class="mx-auto {{ if $isWideSinglePage }}max-w-screen-2xl{{ else }}max-w-7xl{{ end }}">
         <h1 class="mt-2 text-4xl font-bold tracking-tight text-center text-slate-900 dark:text-slate-100">
           {{- .Title -}}
         </h1>
@@ -86,7 +88,7 @@
           {{ $hasProjectSummary := or $projectCategory $projectCustomer $hasProjectPeriod }}
 
           {{ if $hasProjectSummary }}
-          <section class="mx-auto -mt-8 mb-10 max-w-5xl rounded-xl border border-slate-200/80 px-4 py-3 dark:border-slate-700/80 md:px-6">
+          <section class="mx-auto -mt-8 mb-10 max-w-7xl rounded-xl border border-slate-200/80 px-4 py-3 dark:border-slate-700/80 md:px-6">
             <details open>
               <summary class="cursor-pointer py-1 text-sm font-medium text-slate-700 dark:text-slate-200">Project Summary</summary>
               <div class="mt-3 overflow-x-auto">
@@ -133,19 +135,27 @@
         {{ $image_container := "" }}
         {{ if eq $placement 2}}
         {{ $image_container = "container" }}
+        {{ if $isPostPage }}
+        {{ $image = $featured.Fit "900x2000" }}
+        {{ else }}
         {{ $image = $featured.Fit "1200x2500" }}
+        {{ end }}
         {{else if eq $placement 3}}
         {{ $image_container = "container-fluid" }}
         {{ $image := $featured.Fit "2560x2560" }}
         {{else}}
         {{ $image_container = "article-container" }}
+        {{ if $isPostPage }}
+        {{ $image = $featured.Fit "560x2000" }}
+        {{ else }}
         {{ $image = $featured.Fit "720x2500" }}
+        {{ end }}
         {{end}}
         {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
         {{/* Featured image */}}
-        <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16 mx-auto">
+        <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16 mx-auto {{ if $isPostPage }}post-featured-image-wrapper{{ end }}">
           <div style="position: relative">
-            <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ with $.Params.image.alt_text }}{{.}}{{ end }}" class="featured-image">
+            <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ with $.Params.image.alt_text }}{{.}}{{ end }}" class="featured-image {{ if $isPostPage }}post-featured-image{{ end }}">
             {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
           </div>
         </div>
@@ -153,7 +163,7 @@
 
         {{/* EVENT / PUBLICATION METADATA */}}
         {{ if .Params.abstract | or (eq .Type "publication") | or (eq .Type "event") }}
-        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
           {{ if .Params.abstract }}
             <div class="font-bold text-2xl">{{ i18n "abstract" }}</div>
             <div>{{ .Params.abstract | markdownify }}</div>
@@ -254,7 +264,7 @@
           {{ $relatedPublications = sort $relatedPublications "Date" "desc" }}
           {{ $relatedOutreach = sort $relatedOutreach "Date" "desc" }}
           {{ if gt (len $relatedPublications) 0 }}
-            <section class="mx-auto mt-12 max-w-5xl">
+            <section class="mx-auto mt-12 max-w-7xl">
               <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Related Publications</h2>
               <div class="mt-4 space-y-3">
                 {{ range $relatedPublications }}
@@ -276,7 +286,7 @@
           {{ end }}
 
           {{ if gt (len $relatedOutreach) 0 }}
-            <section class="mx-auto mt-12 max-w-5xl">
+            <section class="mx-auto mt-12 max-w-7xl">
               <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Related Outreach</h2>
               {{ partial "components/project-category-tag-styles.html" . }}
               <div class="mt-4 space-y-3">
