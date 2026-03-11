@@ -63,6 +63,40 @@
     margin-right: auto;
   }
 
+  /* Publication list: enforce full-width rows and predictable wrapping. */
+  .page-body .pub-list-item.view-citation {
+    display: block;
+    width: 80%;
+    max-width: 80rem;
+    margin: 0 0 1rem !important;
+    padding: 0.95rem 1.1rem;
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    border-radius: 0.85rem;
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .page-body .pub-list-item.view-citation .li-cite-author {
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+
+  .page-body .pub-list-item.view-citation em {
+    display: inline;
+    margin-top: 0;
+  }
+
+  .page-body .pub-list-item.view-citation .flex.flex-wrap {
+    margin-top: 0.65rem;
+    row-gap: 0.45rem;
+    column-gap: 0.6rem;
+  }
+
+  .page-body .pub-list-item.view-citation .flex.flex-wrap > * {
+    margin-right: 0 !important;
+  }
+
   #nav-menu .nav-link.active,
   #nav-menu .nav-dropdown-link.active {
     font-weight: 700;
